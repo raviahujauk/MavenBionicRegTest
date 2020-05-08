@@ -10,28 +10,11 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 public class bionicStepDefs {
 
-    //static{
-    //    System.setProperty("webdriver.chrome.driver", "src/main/resources/driver/chromedriver.exe");
-    //}
-    //WebDriver driver;
-    WebDriver driver;
-
-        public bionicStepDefs(){
-            //For Linux headless browser
-            String chromeDriverPath = "/usr/local/bin/chromedriver";
-            System.setProperty("webdriver.chrome.driver", chromeDriverPath);
-            ChromeOptions options = new ChromeOptions();
-            options.addArguments("--headless");
-            options.addArguments("--headless", "--disable-gpu", "--window-size=1920,1200", "--ignore-certificate-errors");
-            driver = new ChromeDriver(options);
-        }
-
-
-        //ChromeOptions options = new ChromeOptions();
-        //WebDriver driver = new ChromeDriver(options);
-
-
-    //private WebDriver driver = new ChromeDriver();
+    static {
+        System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
+    }
+    private ChromeOptions options = new ChromeOptions();
+    private WebDriver driver = new ChromeDriver(options.addArguments("--headless, --disable-gpu, --window-size=1920,1200,--ignore-certificate-errors"));
     private bionicLandingPage blp =new bionicLandingPage(driver);
 
     @Given("^I navigate to bionic landing page with \"([^\"]*)\"$")
