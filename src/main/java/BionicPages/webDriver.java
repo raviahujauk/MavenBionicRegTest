@@ -11,7 +11,7 @@ public class webDriver {
     WebDriver driver;
 
     public webDriver (WebDriver driver) {
-        
+
 
         this.driver = driver;
     }
