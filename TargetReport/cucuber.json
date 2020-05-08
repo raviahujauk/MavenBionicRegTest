@@ -1,0 +1,61 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 11,
+        "name": "Verify title of landing page",
+        "description": "",
+        "id": "verify-bionic-site-is-live;verify-title-of-landing-page;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 20027544500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I navigate to bionic landing page with \"https://bionic-qa.makeiteasy.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://bionic-qa.makeiteasy.com/",
+                  "offset": 40
+                }
+              ],
+              "location": "bionicStepDefs.i_navigate_to_bionic_landing_page_with(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7876700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I verify tile content \"Bionic - Your Business Essentials Sorted | Bionic\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Bionic - Your Business Essentials Sorted | Bionic",
+                  "offset": 23
+                }
+              ],
+              "location": "bionicStepDefs.i_verify_tile(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verify bionic site is live",
+    "description": "As a user\r\nI navigate to bionic site\r\nSo that site opens successfully",
+    "id": "verify-bionic-site-is-live",
+    "keyword": "Feature",
+    "uri": "BionicSiteLive.feature"
+  }
+]
