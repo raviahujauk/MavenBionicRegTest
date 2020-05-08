@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="3" failures="0" name="bionicTestPrototype.RunnerClassTest" time="0" errors="0" skipped="0">
+<testsuite tests="3" failures="0" name="bionicTestPrototype.RunnerClassTest" time="0.006" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="11.0.2+7-LTS"/>
@@ -65,7 +65,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="| https://bionic-qa.makeiteasy.com/ |" name="Given I navigate to bionic landing page with &quot;https://bionic-qa.makeiteasy.com/&quot;" time="0"/>
+  <testcase classname="| https://bionic-qa.makeiteasy.com/ |" name="Given I navigate to bionic landing page with &quot;https://bionic-qa.makeiteasy.com/&quot;" time="0.005"/>
   <testcase classname="| https://bionic-qa.makeiteasy.com/ |" name="Then I verify tile content &quot;Bionic - Your Business Essentials Sorted | Bionic&quot;" time="0"/>
-  <testcase classname="| https://bionic-qa.makeiteasy.com/ |" name="| https://bionic-qa.makeiteasy.com/ |" time="0"/>
+  <testcase classname="| https://bionic-qa.makeiteasy.com/ |" name="| https://bionic-qa.makeiteasy.com/ |" time="0.001"/>
 </testsuite>
