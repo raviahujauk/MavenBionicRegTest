@@ -14,20 +14,21 @@ public class bionicStepDefs {
     //    System.setProperty("webdriver.chrome.driver", "src/main/resources/driver/chromedriver.exe");
     //}
     //WebDriver driver;
-    ChromeOptions options = new ChromeOptions();
+    WebDriver driver;
 
-        static {
+        public bionicStepDefs(){
             //For Linux headless browser
             String chromeDriverPath = "/usr/local/bin/chromedriver";
             System.setProperty("webdriver.chrome.driver", chromeDriverPath);
-        }
-        @Before
-                public void setup() {
+            ChromeOptions options = new ChromeOptions();
             options.addArguments("--headless");
             options.addArguments("--headless", "--disable-gpu", "--window-size=1920,1200", "--ignore-certificate-errors");
+            driver = new ChromeDriver(options);
         }
+
+
         //ChromeOptions options = new ChromeOptions();
-        WebDriver driver = new ChromeDriver(options);
+        //WebDriver driver = new ChromeDriver(options);
 
 
     //private WebDriver driver = new ChromeDriver();
