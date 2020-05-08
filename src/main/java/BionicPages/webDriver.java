@@ -10,19 +10,16 @@ import java.util.Properties;
 public class webDriver {
     WebDriver driver;
 
-    @BeforeClass
-    //setup method for - Headless driver setup for Linux
-    public void setup(){
+    public webDriver (WebDriver driver) {
+
+        //For Linux headless browser
         String chromeDriverPath = "/usr/local/bin/chromedriver";
         System.setProperty("webdriver.chrome.driver" , chromeDriverPath);
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--headless");
         options.addArguments("--headless", "--disable-gpu", "--window-size=1920,1200","--ignore-certificate-errors");
         driver = new ChromeDriver(options);
-    }
 
-
-    public webDriver (WebDriver driver) {
         this.driver = driver;
     }
 }

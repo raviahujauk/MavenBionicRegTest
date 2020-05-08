@@ -9,5 +9,5 @@ import cucumber.api.junit.Cucumber;
         features = "src/test/resources"
 )
 
-public class runnerClass {
+public class RunnerClassTest {
 }
