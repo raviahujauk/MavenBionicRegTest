@@ -2,7 +2,6 @@ package bionicTestPrototype;
 
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
-import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import BionicPages.bionicLandingPage;
@@ -10,12 +9,19 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 public class bionicStepDefs {
 
+    //For windown with head browser
+    //System.setProperty("webdriver.chrome.driver" , "chromedriver.exe");
+    //driver = new ChromeDriver();
+
+    //For Linux + Headless browser
+//    /*
     static{
         System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
     }
     private ChromeOptions options = new ChromeOptions();
     private WebDriver driver = new ChromeDriver(options.addArguments("--headless", "--disable-gpu", "--window-size=1920,1200","--ignore-certificate-errors"));
     private bionicLandingPage blp =new bionicLandingPage(driver);
+//    /*
 
     @Given("^I navigate to bionic landing page with \"([^\"]*)\"$")
     public void i_navigate_to_bionic_landing_page_with(String url) throws Throwable {
