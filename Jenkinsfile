@@ -7,7 +7,7 @@ pipeline {
         stage ('Compile Stage') {
             steps {
                 sh 'printenv'
-                withMaven(mavenSettingsConfig: 'maven-settings-global') {
+                withMaven(maven: 'M3') {
                     sh 'mvn clean package'
                     // Run the maven build
                     //sh "mvn clean verify"
