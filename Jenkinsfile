@@ -6,7 +6,8 @@ pipeline {
             steps {
                 sh 'printenv'
                 withMaven(maven: 'M3',
-                        mavenSettingsConfig: 'Global Maven Settings') {
+                        //mavenSettingsConfig: 'Global Maven Settings') {
+                        ) {
                     sh 'mvn clean package'
                     // Run the maven build
                     //sh "mvn clean verify"
