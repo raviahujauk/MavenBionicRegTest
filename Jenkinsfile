@@ -2,6 +2,8 @@ pipeline {
     agent any
     tools {
         maven 'M3'
+        mavenSettingsConfig: 'Global Maven Settings'
+        jdk 'jdk8'
     }
     stages {
         stage ('Compile Stage') {
