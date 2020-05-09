@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="892097e6-a01e-412d-815a-099e55594323" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -14,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="42" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="306">
+              <caret line="49" column="10" lean-forward="true" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -44,11 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Jenkinsfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="240">
+              <caret line="12" column="43" lean-forward="true" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -117,13 +117,13 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/BionicPages/webdriver.java" />
         <option value="$PROJECT_DIR$/src/test/java/bionicTestPrototype/runnerClass.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/resources/BionicSiteLive.feature" />
         <option value="$PROJECT_DIR$/src/main/java/BionicPages/bionicLandingPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/BionicPages/webDriver.java" />
         <option value="$PROJECT_DIR$/src/test/java/bionicTestPrototype/RunnerClassTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/bionicTestPrototype/bionicStepDefs.java" />
         <option value="$PROJECT_DIR$/Jenkinsfile" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -417,7 +417,21 @@
       <option name="project" value="LOCAL" />
       <updated>1589024489830</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Jenkinsfile - Changed version on Maven (Changes in Jenkinsfile file-10&#10;)">
+      <created>1589026081703</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1589026081703</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Jenkinsfile - Changed version on Maven (Changes in Jenkinsfile file-11&#10;)">
+      <created>1589026174962</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1589026174962</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -507,18 +521,13 @@
     <MESSAGE value="Jenkinsfile - Changed version on Maven (Changes in Jenkinsfile file-7&#10;)" />
     <MESSAGE value="Jenkinsfile - Changed version on Maven (Changes in Jenkinsfile file-8&#10;)" />
     <MESSAGE value="Jenkinsfile - Changed version on Maven (Changes in Jenkinsfile file-9&#10;)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Jenkinsfile - Changed version on Maven (Changes in Jenkinsfile file-9&#10;)" />
+    <MESSAGE value="Jenkinsfile - Changed version on Maven (Changes in Jenkinsfile file-10&#10;)" />
+    <MESSAGE value="Jenkinsfile - Changed version on Maven (Changes in Jenkinsfile file-11&#10;)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Jenkinsfile - Changed version on Maven (Changes in Jenkinsfile file-11&#10;)" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/BionicPages.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/bionicTestPrototype/runnerClass.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/BionicPages/webDriver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -575,8 +584,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Jenkinsfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="240">
+          <caret line="12" column="43" lean-forward="true" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="49" column="10" lean-forward="true" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="10" />
         </state>
       </provider>
     </entry>
