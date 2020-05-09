@@ -1,15 +1,12 @@
 pipeline {
     agent any
-    tools {
-        maven 'M3'
-        mavenSettingsConfig: 'Global Maven Settings'
-        //jdk 'jdk8'
-    }
+
     stages {
         stage ('Compile Stage') {
             steps {
                 sh 'printenv'
-                withMaven(maven: 'M3') {
+                withMaven(maven: 'M3',
+                        mavenSettingsConfig: 'Global Maven Settings') {
                     sh 'mvn clean package'
                     // Run the maven build
                     //sh "mvn clean verify"
