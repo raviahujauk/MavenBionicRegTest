@@ -1,7 +1,7 @@
 pipeline {
     agent any
     tools {
-        maven 'M3'
+        maven 'Apache Maven 3.5.2'
         mavenSettingsConfig: 'Global Maven Settings'
         //jdk 'jdk8'
     }
