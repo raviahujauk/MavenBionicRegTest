@@ -1,7 +1,7 @@
 pipeline {
     agent any
     tools {
-        maven 'Apache-Maven-3.5.2'
+        maven 'Apache-Maven-3.6.9'
     }
     stages {
         stage ('Compile Stage') {
@@ -17,7 +17,7 @@ pipeline {
         }
             stage('Test Stage') {
                 steps {
-                    withMaven(maven: 'Apache-Maven-3.5.2') {
+                    withMaven(maven: 'Apache-Maven-3.6.9') {
                         sh 'mvn test'
                     }
                 }
