@@ -12,7 +12,7 @@ public class bionicStepDefs {
     //For windown with head browser
     //static { System.setProperty("webdriver.chrome.driver" , "src/main/resources/driver/chromedriver.exe"); }
     //private WebDriver driver = new ChromeDriver();
-    bionicLandingPage blp =new bionicLandingPage(driver);
+    //bionicLandingPage blp =new bionicLandingPage(driver);
 
     //For Linux + Headless browser
 
