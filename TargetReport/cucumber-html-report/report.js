@@ -78,7 +78,7 @@ formatter.match({
   "location": "bionicStepDefs.i_navigate_to_bionic_landing_page_with(String)"
 });
 formatter.result({
-  "duration": 20027544500,
+  "duration": 19949959900,
   "status": "passed"
 });
 formatter.match({
@@ -91,7 +91,7 @@ formatter.match({
   "location": "bionicStepDefs.i_verify_tile(String)"
 });
 formatter.result({
-  "duration": 7876700,
+  "duration": 7021600,
   "status": "passed"
 });
 });
