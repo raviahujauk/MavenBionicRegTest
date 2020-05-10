@@ -1,18 +1,18 @@
-node(){
+node() {
 
-		def repoURL='https://github.com/raviahujauk/MavenBionicRegTest.git'
+		def repoURL = 'https://github.com/raviahujauk/MavenBionicRegTest.git'
 
-		stage("Prepare Workspace"){
+		stage("Prepare Workspace") {
 			cleanWs()
 			env.WORKSPACE_LOCAL=sh(returnStdout:true,script:'pwd').trim()
 			echo"Workspace set to:"+env.WORKSPACE_LOCAL
 			echo"Build time: "+env.BUILD_TIME
 		}
-		stage('Checkout Self'){
+		stage('Checkout Self') {
 		git branch:'xray',credentialsId:'',url:repoURL
 		}
-		stage('Cucumber Tests'){
-			withMaven(maven:'maven35'){
+		stage('Cucumber Tests') {
+			withMaven(maven:'maven35') {
 				sh """
 					cd ${env.WORKSPACE_LOCAL}
 					mvn clean test
