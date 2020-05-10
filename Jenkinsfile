@@ -1,34 +1,26 @@
-pipeline {
-    agent any
+node(){
 
-    stages {
-        stage ('Compile Stage') {
-            steps {
-                sh 'printenv'
-                withMaven(maven: 'M3',
-                        //mavenSettingsConfig: 'Global Maven Settings') {
-                        ) {
-                    sh 'mvn clean package'
-                    // Run the maven build
-                    //sh "mvn clean verify"
-                    //sh 'mvn clean install'
-                }
-            }
-        }
-            stage('Test Stage') {
-                steps {
-                    withMaven(maven: 'M3') {
-                        sh 'mvn test'
-                    }
-                }
-            }
-            stage('Cucumber Reports') {
-                steps {
-                    cucumber buildstatus: "UNSTABLE",
-                        fileIncludePattern: "**/cucumber.json",
-                    jsonReportDirectory: 'TargetReport'
-                }
-            }
+		def repoURL='https://github.com/raviahujauk/MavenBionicRegTest.git'
 
-        }
-    }
+		stage("Prepare Workspace"){
+			cleanWs()
+			env.WORKSPACE_LOCAL=sh(returnStdout:true,script:'pwd').trim()
+			echo"Workspace set to:"+env.WORKSPACE_LOCAL
+			echo"Build time: "+env.BUILD_TIME
+		}
+		stage('Checkout Self'){
+		git branch:'xray',credentialsId:'',url:repoURL
+		}
+		stage('Cucumber Tests'){
+			withMaven(maven:'maven35'){
+				sh """
+					cd ${env.WORKSPACE_LOCAL}
+					mvn clean test
+				"""
+			}
+		}
+		stage('Expose report'){
+			archive "**/cucumber.json"
+			cucumber '**/cucumber.json'
+		}
+}
