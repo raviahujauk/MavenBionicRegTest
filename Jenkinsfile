@@ -1,6 +1,6 @@
 node('master') {
 
-		def repoURL = 'https://github.com/raviahujauk/MavenBionicRegTest.git'
+		repoURL = 'https://github.com/raviahujauk/MavenBionicRegTest.git'
 
 		stage("Prepare Workspace") {
             echo 'testing'
