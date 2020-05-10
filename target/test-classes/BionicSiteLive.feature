@@ -7,5 +7,5 @@ Feature: Verify bionic site is live
     Given I navigate to bionic landing page with "<url>"
     Then I verify tile content "Bionic - Your Business Essentials Sorted | Bionic"
     Examples:
-      | url                               |
-      | https://bionic-qa.makeiteasy.com/ |
+      | url                    |
+      | https://bionic.co.uk/ |

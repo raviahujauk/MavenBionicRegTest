@@ -11,7 +11,7 @@ import cucumber.api.junit.Cucumber;
         plugin={"html:TargetReport/cucumber-html-report",
                 "json:TargetReport/cucuber.json",
                 "junit:TargetReport/cucuber.xml",
-                "rerun:TargetReport/rerun.txt", }
+                "rerun:TargetReport/rerun.txt" }
 )
 
 public class RunnerClassTest {
