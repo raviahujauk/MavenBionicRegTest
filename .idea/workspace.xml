@@ -16,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Jenkinsfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+            <state relative-caret-position="151">
+              <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -90,11 +90,11 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/BionicSiteLive.feature">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="200">
-              <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -107,6 +107,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Expose report</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -126,14 +131,10 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/bionicTestPrototype/bionicStepDefs.java" />
         <option value="$PROJECT_DIR$/src/test/java/bionicTestPrototype/RunnerClassTest.java" />
-        <option value="$PROJECT_DIR$/Jenkinsfile" />
         <option value="$PROJECT_DIR$/src/test/resources/BionicSiteLive.feature" />
+        <option value="$PROJECT_DIR$/Jenkinsfile" />
       </list>
     </option>
-  </component>
-  <component name="Jenkins.Settings">
-    <option name="username" value="admin" />
-    <option name="crumbData" value="d7359f0a98dd885d9b6ee8dc6e1826f4cff5f219f2c76b902559b33be426f4f6" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -141,12 +142,6 @@
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="390" />
-    <option name="y" value="5" />
-    <option name="width" value="1450" />
-    <option name="height" value="1030" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -244,17 +239,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589238965277" />
-    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/cucumber" />
-    <property name="settings.editor.selected.configurable" value="preferences.Jenkins" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\User\Documents\test_folder\MavenBionicRegTest\src\test\resources\driver" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\User\Documents\test_folder\MavenBionicRegTest\src\main\resources" />
-    </key>
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589240624641" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -342,12 +327,12 @@
       <option name="presentableId" value="Default" />
       <updated>1588894388702</updated>
     </task>
-    <task id="LOCAL-00001" summary="Added Jenkinsfile">
-      <created>1588974669913</created>
+    <task id="LOCAL-00001" summary="changed from qa to live url">
+      <created>1589239281052</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1588974669913</updated>
+      <updated>1589239281052</updated>
     </task>
     <task id="LOCAL-00002" summary="Jenkinsfile - Changed version on Maven">
       <created>1588984827034</created>
@@ -580,49 +565,15 @@
       <option name="project" value="LOCAL" />
       <updated>1589238338647</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="changed to Runner class . removed plugin path">
+      <created>1589239003028</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1589239003028</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="RunnerClassTest - 2020.05.08 at 20h 10m 29s.xml">
-      <configuration name="RunnerClassTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RunnerClassTest - 2020.05.08 at 20h 11m 37s.xml">
-      <configuration name="RunnerClassTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RunnerClassTest - 2020.05.08 at 20h 12m 52s.xml">
-      <configuration name="RunnerClassTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RunnerClassTest - 2020.05.08 at 20h 13m 39s.xml">
-      <configuration name="RunnerClassTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RunnerClassTest - 2020.05.08 at 20h 14m 09s.xml">
-      <configuration name="RunnerClassTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RunnerClassTest - 2020.05.08 at 20h 14m 25s.xml">
-      <configuration name="RunnerClassTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RunnerClassTest - 2020.05.08 at 20h 33m 37s.xml">
-      <configuration name="RunnerClassTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RunnerClassTest - 2020.05.08 at 20h 39m 04s.xml">
-      <configuration name="RunnerClassTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RunnerClassTest - 2020.05.08 at 21h 12m 49s.xml">
-      <configuration name="RunnerClassTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RunnerClassTest - 2020.05.09 at 16h 08m 03s.xml">
-      <configuration name="RunnerClassTest" configurationId="JUnit" />
-    </history-entry>
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -658,124 +609,21 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Jenkinsfile - Changed version on Maven (Changes in Jenkinsfile file-5&#10;)" />
-    <MESSAGE value="Jenkinsfile - Changed version on Maven (Changes in Jenkinsfile file-6&#10;)" />
-    <MESSAGE value="Jenkinsfile - Changed version on Maven (Changes in Jenkinsfile file-7&#10;)" />
-    <MESSAGE value="Jenkinsfile - Changed version on Maven (Changes in Jenkinsfile file-8&#10;)" />
-    <MESSAGE value="Jenkinsfile - Changed version on Maven (Changes in Jenkinsfile file-9&#10;)" />
-    <MESSAGE value="Jenkinsfile - Changed version on Maven (Changes in Jenkinsfile file-10&#10;)" />
-    <MESSAGE value="Jenkinsfile - Changed version on Maven (Changes in Jenkinsfile file-11&#10;)" />
-    <MESSAGE value="Jenkinsfile - Changed version on Maven (Changes in Jenkinsfile file-12&#10;)" />
-    <MESSAGE value="Jenkinsfile - Changed version on Maven (Changes in Jenkinsfile file-13&#10;)" />
-    <MESSAGE value="Jenkinsfile - Changed version on Maven (Changes in Jenkinsfile file-14&#10;)" />
-    <MESSAGE value="Jenkinsfile - Changed version on Maven (Changes in Jenkinsfile file-15&#10;)" />
-    <MESSAGE value="Jenkinsfile - Changed version on Maven (Changes in Jenkinsfile file-16&#10;)" />
-    <MESSAGE value="Jenkinsfile - Changed version on Maven (Changes in Jenkinsfile file-17&#10;)" />
-    <MESSAGE value="Jenkinsfile - Changed version on Maven (Changes in Jenkinsfile file-18&#10;)" />
-    <MESSAGE value="Jenkinsfile - Changed version on Maven (Changes in Jenkinsfile file-19&#10;)" />
-    <MESSAGE value="Jenkinsfile - Changed version on Maven (Changes in Jenkinsfile file-20&#10;)" />
-    <MESSAGE value="Jenkinsfile - Changed version on Maven (Changes in Jenkinsfile file-21&#10;)" />
-    <MESSAGE value="Jenkinsfile - Changed version on Maven (Changes in Jenkinsfile file-22&#10;)" />
-    <MESSAGE value="Jenkinsfile - Changed version on Maven (Changes in Jenkinsfile file-23&#10;)" />
-    <MESSAGE value="Runner class - Added html report path" />
-    <MESSAGE value="Changes in runner class" />
-    <MESSAGE value="Changes in runner class - 2" />
-    <MESSAGE value="Feature file - Changed url to prod" />
-    <MESSAGE value="changed to Runner class . Added plugin path /xray" />
-    <MESSAGE value="changed to Runner class . removed plugin path" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed to Runner class . removed plugin path" />
+    <MESSAGE value="changed from qa to live url" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed from qa to live url" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/BionicPages.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/bionicTestPrototype/runnerClass.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/BionicPages/webDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar!/cucumber/runtime/model/StepContainer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/test-classes/bionicTestPrototype/RunnerClassTest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BionicPages/bionicLandingPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/bionicTestPrototype/bionicStepDefs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/test-classes/BionicSiteLive.feature">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/BionicSiteLive.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
-          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TargetReport/cucuber.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TargetReport/rerun.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TargetReport/cucumber-html-report/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TargetReport/cucuber.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/bionicTestPrototype/RunnerClassTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Jenkinsfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/BionicSiteLive.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+        <state relative-caret-position="151">
+          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
         </state>
       </provider>
     </entry>
