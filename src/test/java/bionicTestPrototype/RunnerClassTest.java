@@ -8,10 +8,10 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
         features ={"src/test/resources"},
         //glue={"bionicStepDefs"},
-        plugin={"html:TargetReport/cucumber-html-report",
-                "json:TargetReport/cucuber.json",
-                "junit:TargetReport/cucuber.xml",
-                "rerun:TargetReport/rerun.txt" }
+        plugin={"html:xray/TargetReport/cucumber-html-report",
+                "json:xray/TargetReport/cucuber.json",
+                "junit:xray/TargetReport/cucuber.xml",
+                "rerun:xray/TargetReport/rerun.txt" }
 )
 
 public class RunnerClassTest {
