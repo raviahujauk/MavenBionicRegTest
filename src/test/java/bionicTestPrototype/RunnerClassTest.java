@@ -9,8 +9,8 @@ import cucumber.api.junit.Cucumber;
         features ={"src/test/resources"},
         //glue={"bionicStepDefs"},
         plugin={"html:TargetReport/cucumber-html-report",
-                "json:TargetReport/cucuber.json",
-                "junit:TargetReport/cucuber.xml",
+                "json:TargetReport/cucumber.json",
+                "junit:TargetReport/cucumber.xml",
                 "rerun:TargetReport/rerun.txt" }
 )
 
