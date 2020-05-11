@@ -8,4 +8,4 @@ Feature: Verify bionic site is live
     Then I verify tile content "Bionic - Your Business Essentials Sorted | Bionic"
     Examples:
       | url                    |
-      | https://bionic-qa.makeiteasy.com/ |
+      | https://bionic.co.uk |
