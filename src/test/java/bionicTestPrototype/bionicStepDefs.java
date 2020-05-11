@@ -20,7 +20,16 @@ public class bionicStepDefs {
         System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
     }
     private ChromeOptions options = new ChromeOptions();
-    private WebDriver driver = new ChromeDriver(options.addArguments("--headless", "--disable-gpu", "--window-size=1920,1200","--ignore-certificate-errors"));
+    private WebDriver driver = new ChromeDriver(options.addArguments(
+            "--headless",
+            "window-size=1280x800",
+            "no-sandbox",
+            "–disable-dev-shm-usage",
+            "start-maximized",
+            "--disable-gpu",
+            "--ignore-certificate-errors",
+            "--disable-setuid-sandbox"
+    ));
     private bionicLandingPage blp =new bionicLandingPage(driver);
 
 
