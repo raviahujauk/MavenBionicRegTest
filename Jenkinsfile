@@ -21,8 +21,8 @@ node('master') {
 			}
 		}
 		stage('Expose report'){
-			archive "**/cucumber.json"
-			cucumber '**/cucumber.json'
+			archive "**/xray/cucumber.json"
+			cucumber '*/xray/cucumber.json'
 		}
 	stage('Import result to Xray') {
 		def description = "[BUILD_URL|${env.BUILD_URL}]"
