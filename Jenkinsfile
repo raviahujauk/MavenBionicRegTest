@@ -24,4 +24,31 @@ node('master') {
 			archive "**/cucumber.json"
 			cucumber '**/cucumber.json'
 		}
+	stage('Import result to Xray') {
+		def description = "[BUILD_URL|${env.BUILD_URL}]"
+		//def labels = '["label1","label2"]'
+		//def environment = "Dev1"
+		def testExecutionFieldId = 10013
+		//def testEnvironmentFieldName = "customfield_NUMBER"
+		def projectKey = "DIG"
+		def xrayConnectorId = '7c28c556-dcd8-4d5b-9b71-16be7922e2d3'
+		def info = ''' {
+					"fields": {
+					"project": {
+					"key": "''' + projectKey + '''"
+					},
+					"labels":'''+description+'''",
+					"summary": "Automated Regression Execution @" ''' + env.BUILD_TIME + '' +environment+''' ",
+					"issuetype":{
+					"id": "''' + testExecutionFieldId + '''"
+					},
+					"''' + testEnvironmentFieldName + '''" : [
+					"''' + environment + '''"
+					]
+					}
+					}'''
+				echo info
+
+		step([$class: 'XrayImportBuilder', endpointName: '/cucumber/multipart', importFilePath: 'target/cucumber.json', importInfo: info, inputInfoSwitcher: 'fieldContent', serverInstance: xrayConnectorId])
+	}
 }
