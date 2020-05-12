@@ -37,7 +37,6 @@ node('master') {
 					"project": {
 					"key": "''' + projectKey + '''"
 					},
-					"labels":'''+description+'''",
 					"summary": "Automated Regression Execution @" ''' + env.BUILD_TIME + ''' ",
 					"issuetype":{
 					"id": "''' + testExecutionFieldId + '''"
