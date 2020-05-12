@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="892097e6-a01e-412d-815a-099e55594323" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/bionicTestPrototype/RunnerClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bionicTestPrototype/RunnerClassTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -15,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Jenkinsfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="36" />
+            <state relative-caret-position="221">
+              <caret line="47" column="97" selection-start-line="47" selection-start-column="97" selection-end-line="47" selection-end-column="97" />
             </state>
           </provider>
         </entry>
@@ -27,8 +26,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/bionicTestPrototype/RunnerClassTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+            <state relative-caret-position="146">
+              <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -89,7 +88,7 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/resources/BionicSiteLive.feature">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="200">
@@ -130,8 +129,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/bionicTestPrototype/bionicStepDefs.java" />
         <option value="$PROJECT_DIR$/src/test/resources/BionicSiteLive.feature" />
-        <option value="$PROJECT_DIR$/Jenkinsfile" />
         <option value="$PROJECT_DIR$/src/test/java/bionicTestPrototype/RunnerClassTest.java" />
+        <option value="$PROJECT_DIR$/Jenkinsfile" />
       </list>
     </option>
   </component>
@@ -238,7 +237,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589241151274" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589243154121" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -340,40 +339,40 @@
       <option name="project" value="LOCAL" />
       <updated>1589240638402</updated>
     </task>
-    <task id="LOCAL-00003" summary="Jenkinsfile - Changed version on Maven (Changes in Jenkinsfile file)">
-      <created>1588985271661</created>
+    <task id="LOCAL-00003" summary="changed from qa to live url">
+      <created>1589241194925</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1588985271661</updated>
+      <updated>1589241194925</updated>
     </task>
-    <task id="LOCAL-00004" summary="Jenkinsfile - Changed version on Maven (Changes in Jenkinsfile file-2)">
-      <created>1588985402508</created>
+    <task id="LOCAL-00004" summary="changed from qa to live url">
+      <created>1589241827795</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1588985402508</updated>
+      <updated>1589241827795</updated>
     </task>
-    <task id="LOCAL-00005" summary="Jenkinsfile - Changed version on Maven (Changes in Jenkinsfile file-3)">
-      <created>1588988119754</created>
+    <task id="LOCAL-00005" summary="changed from qa to live url">
+      <created>1589242064879</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1588988119754</updated>
+      <updated>1589242064879</updated>
     </task>
-    <task id="LOCAL-00006" summary="Jenkinsfile - Changed version on Maven (Changes in Jenkinsfile file-4)">
-      <created>1588988531216</created>
+    <task id="LOCAL-00006" summary="changed from qa to live url">
+      <created>1589242390290</created>
       <option name="number" value="00006" />
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
-      <updated>1588988531216</updated>
+      <updated>1589242390290</updated>
     </task>
-    <task id="LOCAL-00007" summary="Jenkinsfile - Changed version on Maven (Changes in Jenkinsfile file-5)">
-      <created>1588988825093</created>
+    <task id="LOCAL-00007" summary="changed from qa to live url">
+      <created>1589242525368</created>
       <option name="number" value="00007" />
       <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
-      <updated>1588988825093</updated>
+      <updated>1589242525368</updated>
     </task>
     <task id="LOCAL-00008" summary="Jenkinsfile - Changed version on Maven (Changes in Jenkinsfile file-5)">
       <created>1588988985833</created>
@@ -571,7 +570,7 @@
       <option name="project" value="LOCAL" />
       <updated>1589239003028</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -613,17 +612,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="changed from qa to live url" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/resources/BionicSiteLive.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/bionicTestPrototype/RunnerClassTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+        <state relative-caret-position="146">
+          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -632,8 +624,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Jenkinsfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="36" />
+        <state relative-caret-position="221">
+          <caret line="47" column="97" selection-start-line="47" selection-start-column="97" selection-end-line="47" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/BionicSiteLive.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
         </state>
       </provider>
     </entry>
