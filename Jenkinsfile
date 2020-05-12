@@ -27,9 +27,9 @@ node('master') {
 	stage('Import result to Xray') {
 		def description = "[BUILD_URL|${env.BUILD_URL}]"
 		//def labels = '["label1","label2"]'
-		def environment = "environment1"//"Dev1"
+		//def environment = "environment1"//"Dev1"
 		def testExecutionFieldId = 10013
-		def testEnvironmentFieldName = "customfield_NUMBER"
+		//def testEnvironmentFieldName = "customfield_NUMBER"
 		def projectKey = "DIG"
 		def xrayConnectorId = '7c28c556-dcd8-4d5b-9b71-16be7922e2d3'
 		def info = ''' {
@@ -38,12 +38,11 @@ node('master') {
 					"key": "''' + projectKey + '''"
 					},
 					"labels":'''+description+'''",
-					"summary": "Automated Regression Execution @" ''' + env.BUILD_TIME + '' +environment+''' ",
+					"summary": "Automated Regression Execution @" ''' + env.BUILD_TIME + ''' ",
 					"issuetype":{
 					"id": "''' + testExecutionFieldId + '''"
 					},
-					"''' + testEnvironmentFieldName + '''" : [
-					"''' + environment + '''"
+
 					]
 					}
 					}'''
