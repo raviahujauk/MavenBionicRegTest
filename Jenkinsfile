@@ -40,7 +40,7 @@ node('master') {
 					"summary": "Automated Regression Execution @" ''' + env.BUILD_URL + ''' ",
 					"issuetype":{
 					"id": "''' + testExecutionFieldId + '''"
-					},
+					}
 					}
 					}'''
 				echo info
