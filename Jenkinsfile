@@ -45,6 +45,6 @@ node('master') {
 					}'''
 				echo info
 
-		step([$class: 'XrayImportBuilder', endpointName: '/cucumber/multipart', importFilePath: '/var/lib/jenkins/workspace/Xray/TargetReport/cucumber.json', importInfo: info, inputInfoSwitcher: 'fieldContent', serverInstance: xrayConnectorId])
+		step([$class: 'XrayImportBuilder', endpointName: '/cucumber/multipart', importFilePath: 'TargetReport/cucumber.json', importInfo: info, inputInfoSwitcher: 'fieldContent', serverInstance: xrayConnectorId])
 	}
 }
