@@ -2,6 +2,7 @@ package bionicTestPrototype;
 
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import BionicPages.bionicLandingPage;
@@ -34,13 +35,17 @@ public class bionicStepDefs {
 
     @Given("^I navigate to bionic landing page with \"([^\"]*)\"$")
     public void i_navigate_to_bionic_landing_page_with(String url) throws Throwable {
-
-
         blp.NavigateToBionicLandingPage(url);
     }
 
-    @Then("^I verify tile content \"([^\"]*)\"$")
+    @When("^I verify tile content \"([^\"]*)\"$")
     public void i_verify_tile(String title) throws Throwable {
         blp.verifyTitle(title);
     }
+
+    @Then("^I close the browser$")
+    public void i_close_the_browser() throws Exception {
+        driver.close();
+    }
+
 }

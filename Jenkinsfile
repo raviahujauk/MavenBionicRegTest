@@ -39,7 +39,7 @@ node('master') {
 					},
 					"labels":'''+ labels + ''',
 					"description":"''' + description + '''",
-					"summary": "Automated Regression Execution @ ''' + env.BUILD_TIME + '' + environment +''' ",
+					"summary": "Automated Regression Execution @ ''' + env.BUILD_TIME + ' ' + environment +''' ",
 					"issuetype":{
 					"id": "''' + testExecutionFieldId + '''"
 					},
