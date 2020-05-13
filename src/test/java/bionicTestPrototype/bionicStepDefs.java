@@ -1,5 +1,7 @@
 package bionicTestPrototype;
 
+import cucumber.api.PendingException;
+import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -48,4 +50,37 @@ public class bionicStepDefs {
         driver.close();
     }
 
+   @Given("^I navigate to bionic web-form page \"([^\"]*)\"$")
+    public void iNavigateToBionicWebFormPage(String arg0) throws Throwable {
+        
+    }
+
+    @When("^I enter full name \"([^\"]*)\"$")
+    public void iEnterFullName(String arg0) throws Throwable {
+        
+    }
+
+    @And("^I enter valid email address \"([^\"]*)\"$")
+    public void iEnterValidEmailAddress(String arg0) throws Throwable {
+        
+    }
+
+    @And("^I enter valid company name \"([^\"]*)\"$")
+    public void iEnterValidCompanyName(String arg0) throws Throwable {
+        
+    }
+
+    @And("^I enter valid phone number \"([^\"]*)\"$")
+    public void iEnterValidPhoneNumber(String arg0) throws Throwable {
+        
+    }
+
+    @And("^I click Get a quote button$")
+    public void iClickGetAQuoteButton() {
+        
+    }
+
+    @Then("^I verify lead is created in SalesForce$")
+    public void iVerifyLeadIsCreatedInSalesForce() {
+    }
 }
