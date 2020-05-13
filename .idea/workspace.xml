@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="892097e6-a01e-412d-815a-099e55594323" name="Default Changelist" comment="">
+    <list default="true" id="892097e6-a01e-412d-815a-099e55594323" name="Default Changelist" comment="Steps added for new web-form scenario">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TargetReport/cucumber-html-report/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/TargetReport/cucumber-html-report/report.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TargetReport/rerun.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TargetReport/rerun.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/bionicTestPrototype/RunnerClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bionicTestPrototype/RunnerClassTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/bionicTestPrototype/bionicStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bionicTestPrototype/bionicStepDefs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/BionicSiteLive.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/BionicSiteLive.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/BionicSiteLive.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BionicSiteLive.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/bionicTestPrototype/RunnerClassTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/bionicTestPrototype/RunnerClassTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/bionicTestPrototype/bionicStepDefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/bionicTestPrototype/bionicStepDefs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Maven-BionicRegTest-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BionicPages/bionicLandingPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BionicPages/webDriver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/driver/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-bionicTestPrototype.RunnerClassTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/bionicTestPrototype.RunnerClassTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/BionicSiteLive.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/bionicTestPrototype/RunnerClassTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/bionicTestPrototype/bionicStepDefs.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,7 +35,7 @@
         <entry file="file://$PROJECT_DIR$/Jenkinsfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="304">
-              <caret line="44" column="22" lean-forward="true" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
+              <caret line="44" column="22" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -36,19 +44,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/bionicTestPrototype/RunnerClassTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/BionicPages/bionicLandingPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -59,27 +55,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/bionicTestPrototype/bionicStepDefs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="47" column="23" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
+            <state relative-caret-position="174">
+              <caret line="80" column="5" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/target/test-classes/BionicSiteLive.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TargetReport/cucuber.xml">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -100,9 +82,16 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/resources/BionicSiteLive.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="223">
+              <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TargetReport/cucumber.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1143" />
           </provider>
         </entry>
       </file>
@@ -137,9 +126,9 @@
         <option value="$PROJECT_DIR$/src/main/java/BionicPages/webDriver.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/Jenkinsfile" />
-        <option value="$PROJECT_DIR$/src/test/java/bionicTestPrototype/bionicStepDefs.java" />
         <option value="$PROJECT_DIR$/src/test/java/bionicTestPrototype/RunnerClassTest.java" />
         <option value="$PROJECT_DIR$/src/test/resources/BionicSiteLive.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/bionicTestPrototype/bionicStepDefs.java" />
       </list>
     </option>
   </component>
@@ -239,11 +228,6 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="MavenBionicRegTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MavenBionicRegTest" type="462c0819:PsiDirectoryNode" />
-              <item name="TargetReport" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -252,7 +236,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589328687738" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589333683664" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RunDashboard">
@@ -432,26 +416,26 @@
       <option name="project" value="LOCAL" />
       <updated>1589324987866</updated>
     </task>
-    <task id="LOCAL-00014" summary="Jenkinsfile - Changed version on Maven (Changes in Jenkinsfile file-10&#10;)">
-      <created>1589026081703</created>
+    <task id="LOCAL-00014" summary="Changes in Jenkinsfile - 2">
+      <created>1589328828247</created>
       <option name="number" value="00014" />
       <option name="presentableId" value="LOCAL-00014" />
       <option name="project" value="LOCAL" />
-      <updated>1589026081703</updated>
+      <updated>1589328828247</updated>
     </task>
-    <task id="LOCAL-00015" summary="Jenkinsfile - Changed version on Maven (Changes in Jenkinsfile file-11&#10;)">
-      <created>1589026174962</created>
+    <task id="LOCAL-00015" summary="Changes in feature file">
+      <created>1589331140691</created>
       <option name="number" value="00015" />
       <option name="presentableId" value="LOCAL-00015" />
       <option name="project" value="LOCAL" />
-      <updated>1589026174962</updated>
+      <updated>1589331140691</updated>
     </task>
-    <task id="LOCAL-00016" summary="Jenkinsfile - Changed version on Maven (Changes in Jenkinsfile file-12&#10;)">
-      <created>1589029564549</created>
+    <task id="LOCAL-00016" summary="Steps added for new web-form scenario">
+      <created>1589333597678</created>
       <option name="number" value="00016" />
       <option name="presentableId" value="LOCAL-00016" />
       <option name="project" value="LOCAL" />
-      <updated>1589029564549</updated>
+      <updated>1589333597678</updated>
     </task>
     <task id="LOCAL-00017" summary="Jenkinsfile - Changed version on Maven (Changes in Jenkinsfile file-12&#10;)">
       <created>1589029604356</created>
@@ -586,7 +570,7 @@
       <option name="project" value="LOCAL" />
       <updated>1589239003028</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -603,6 +587,9 @@
       <configuration name="RunnerClassTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="RunnerClassTest - 2020.05.13 at 00h 55m 45s.xml">
+      <configuration name="RunnerClassTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RunnerClassTest - 2020.05.13 at 02h 22m 13s.xml">
       <configuration name="RunnerClassTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -643,7 +630,9 @@
     <MESSAGE value="changed from qa to live url" />
     <MESSAGE value="Changes in Jenkinsfile" />
     <MESSAGE value="Changes in Jenkinsfile - 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes in Jenkinsfile - 2" />
+    <MESSAGE value="Changes in feature file" />
+    <MESSAGE value="Steps added for new web-form scenario" />
+    <option name="LAST_COMMIT_MESSAGE" value="Steps added for new web-form scenario" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/target/test-classes/bionicTestPrototype/RunnerClassTest.class">
@@ -685,24 +674,39 @@
     <entry file="file://$PROJECT_DIR$/Jenkinsfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
-          <caret line="44" column="22" lean-forward="true" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
+          <caret line="44" column="22" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/bionicTestPrototype/bionicStepDefs.java">
+    <entry file="file://$PROJECT_DIR$/TargetReport/cucumber.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="47" column="23" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
+        <state relative-caret-position="-1143" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/bionicTestPrototype/RunnerClassTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/bionicTestPrototype/RunnerClassTest.java">
+    <entry file="file://$PROJECT_DIR$/target/test-classes/bionicTestPrototype/bionicStepDefs.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="25" />
+        <state relative-caret-position="193">
+          <caret line="41" column="44" lean-forward="true" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#1354#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/bionicTestPrototype/bionicStepDefs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="80" column="5" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -711,15 +715,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/target/test-classes/BionicSiteLive.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="280">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/BionicSiteLive.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="223">
+          <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
         </state>
       </provider>
     </entry>
