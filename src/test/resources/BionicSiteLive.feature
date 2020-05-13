@@ -19,6 +19,7 @@ Feature: Verify bionic site is live
     | https://bionic.co.uk/             |
     | https://bionic-qa.makeiteasy.com/ |
 
+  @RegTest @DIG-8
   Scenario Outline: Web form and lead creation
     Given I navigate to bionic web-form page "<url>"
     When I enter full name "<full-name>"
