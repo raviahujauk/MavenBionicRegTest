@@ -1,13 +1,13 @@
 package bionicTestPrototype;
 
-import cucumber.api.PendingException;
+import BionicPages.bionicWebForm;
+import BionicPages.bionicLandingPage;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import BionicPages.bionicLandingPage;
 import org.openqa.selenium.chrome.ChromeOptions;
 
 public class bionicStepDefs {
@@ -33,6 +33,7 @@ public class bionicStepDefs {
             "--ignore-certificate-errors",
             "--disable-setuid-sandbox"));
     private bionicLandingPage blp =new bionicLandingPage(driver);
+    private bionicWebForm bwf = new bionicWebForm(driver);
 
 
     @Given("^I navigate to bionic landing page with \"([^\"]*)\"$")
@@ -51,33 +52,33 @@ public class bionicStepDefs {
     }
 
    @Given("^I navigate to bionic web-form page \"([^\"]*)\"$")
-    public void iNavigateToBionicWebFormPage(String arg0) throws Throwable {
-        
+    public void iNavigateToBionicWebFormPage(String url) throws Throwable {
+        bwf.navigateToWebForm(url);
     }
 
     @When("^I enter full name \"([^\"]*)\"$")
-    public void iEnterFullName(String arg0) throws Throwable {
-        
+    public void iEnterFullName(String fullName) throws Throwable {
+        bwf.enterFullName(fullName);
     }
 
     @And("^I enter valid email address \"([^\"]*)\"$")
-    public void iEnterValidEmailAddress(String arg0) throws Throwable {
-        
+    public void iEnterValidEmailAddress(String email) throws Throwable {
+        bwf.enterEmail(email);
     }
 
     @And("^I enter valid company name \"([^\"]*)\"$")
-    public void iEnterValidCompanyName(String arg0) throws Throwable {
-        
+    public void iEnterValidCompanyName(String cname) throws Throwable {
+        bwf.enterCompanyName(cname);
     }
 
     @And("^I enter valid phone number \"([^\"]*)\"$")
-    public void iEnterValidPhoneNumber(String arg0) throws Throwable {
-        
+    public void iEnterValidPhoneNumber(String phone) throws Throwable {
+        bwf.enterPhoneNumber(phone);
     }
 
     @And("^I click Get a quote button$")
     public void iClickGetAQuoteButton() {
-        
+        bwf.clickGetAQuote();
     }
 
     @Then("^I verify lead is created in SalesForce$")
