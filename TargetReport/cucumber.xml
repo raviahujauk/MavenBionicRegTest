@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="103.342226">
-    <testcase classname="Verify bionic site is live" name="Verify title of landing page" time="20.636285">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="74.843311">
+    <testcase classname="Verify bionic site is live" name="Verify title of landing page" time="21.339939">
         <system-out>
             <![CDATA[Given I navigate to bionic landing page with "https://bionic.co.uk/"........passed
 When I verify tile content "Bionic - Your Business Essentials Sorted | Bionic".passed
@@ -8,15 +8,7 @@ Then I close the browser....................................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Verify bionic site is live" name="Verify title of landing page 2" time="25.881661">
-        <system-out>
-            <![CDATA[Given I navigate to bionic landing page with "https://bionic.co.uk/"........passed
-When I verify tile content "Bionic - Your Business Essentials Sorted | Bionic".passed
-Then I close the browser....................................................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="Verify bionic site is live" name="Verify title of landing page 3" time="26.488715">
+    <testcase classname="Verify bionic site is live" name="Verify title of landing page 2" time="23.074391">
         <system-out>
             <![CDATA[Given I navigate to bionic landing page with "https://bionic-qa.makeiteasy.com/".passed
 When I verify tile content "Bionic - Your Business Essentials Sorted | Bionic".passed
@@ -24,7 +16,7 @@ Then I close the browser....................................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Verify bionic site is live" name="Web form and lead creation" time="30.335565">
+    <testcase classname="Verify bionic site is live" name="Web form and lead creation" time="30.428981">
         <system-out>
             <![CDATA[Given I navigate to bionic web-form page "https://bionic-qa.makeiteasy.com/business-energy/web-form/".passed
 When I enter full name "Ravi Ahuja".........................................passed

@@ -9,9 +9,11 @@ node('master') {
 			echo"Workspace set to:"+env.WORKSPACE_LOCAL
 			echo"Build time: "+env.BUILD_TIME
 		}
+
 		stage('Checkout Self') {
 		git branch:'xray',credentialsId:'',url:repoURL
 		}
+
 		stage('Cucumber Tests') {
 			withMaven(maven:'M3') {
 				sh """
@@ -20,6 +22,7 @@ node('master') {
 				"""
 			}
 		}
+
 		stage('Expose report'){
 			archive "**/cucumber.json"
 			cucumber '**/cucumber.json'

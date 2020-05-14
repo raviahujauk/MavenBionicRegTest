@@ -4,49 +4,6 @@ formatter.feature({
   "description": "  As a user\n  I navigate to bionic site\n  So that site opens successfully",
   "keyword": "Feature"
 });
-formatter.scenario({
-  "name": "Verify title of landing page",
-  "description": "",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "name": "@RegTest"
-    },
-    {
-      "name": "@DIG-2"
-    }
-  ]
-});
-formatter.step({
-  "name": "I navigate to bionic landing page with \"https://bionic.co.uk/\"",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "bionicStepDefs.i_navigate_to_bionic_landing_page_with(String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "I verify tile content \"Bionic - Your Business Essentials Sorted | Bionic\"",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "bionicStepDefs.i_verify_tile(String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "I close the browser",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "bionicStepDefs.i_close_the_browser()"
-});
-formatter.result({
-  "status": "passed"
-});
 formatter.scenarioOutline({
   "name": "Verify title of landing page",
   "description": "",

@@ -13,16 +13,15 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
-
 public class bionicStepDefs {
 
     //For windown with head browser
-    static { System.setProperty("webdriver.chrome.driver" , "src/main/resources/driver/chromedriver.exe"); }
-    private WebDriver driver = new ChromeDriver();
+    //static { System.setProperty("webdriver.chrome.driver" , "src/main/resources/driver/chromedriver.exe"); }
+    //private WebDriver driver = new ChromeDriver();
 
 
     //For Linux + Headless browser
-/*
+//    /*
     static{
         System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
     }
@@ -36,7 +35,7 @@ public class bionicStepDefs {
             "--disable-gpu",
             "--ignore-certificate-errors",
             "--disable-setuid-sandbox"));
-*/
+//    */
 
     private bionicLandingPage blp =new bionicLandingPage(driver);
     private bionicWebForm bwf = new bionicWebForm(driver);
@@ -77,9 +76,10 @@ public class bionicStepDefs {
 
     @And("^I enter valid company name \"([^\"]*)\"$")
     public void iEnterValidCompanyName(String cname) throws Throwable {
-        companyName = cname+"-"+grs.randomString(5);
-        bwf.enterCompanyName(companyName);
-        System.out.println(companyName);
+        String randomCompanyName = cname+"-"+grs.randomString(5);
+        bwf.enterCompanyName(randomCompanyName);
+        //System.out.println(randomCompanyName);
+        this.companyName = randomCompanyName;
     }
 
     @And("^I enter valid phone number \"([^\"]*)\"$")
@@ -95,7 +95,8 @@ public class bionicStepDefs {
     @Then("^I verify lead is created in SalesForce$")
     public void iVerifyLeadIsCreatedInSalesForce() {
         String token = gapit.generateToken();
-        System.out.println("Token value is "+token);
-        getRequest.salesforceGET(token,"Api Endpoint here");
+        System.out.println(companyName);
+        String queryResponse = getRequest.salesforceGET(token,"lead",companyName);
+        System.out.println("Query response is : "+queryResponse);
     }
 }
