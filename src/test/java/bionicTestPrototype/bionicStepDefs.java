@@ -2,6 +2,9 @@ package bionicTestPrototype;
 
 import BionicPages.bionicWebForm;
 import BionicPages.bionicLandingPage;
+import SalesForce.GETRequest;
+import SalesForce.generateAPIToken;
+import Util.GenerateRandomString;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -10,15 +13,16 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
+
 public class bionicStepDefs {
 
     //For windown with head browser
-    //static { System.setProperty("webdriver.chrome.driver" , "src/main/resources/driver/chromedriver.exe"); }
-    //private WebDriver driver = new ChromeDriver();
-    //bionicLandingPage blp =new bionicLandingPage(driver);
+    static { System.setProperty("webdriver.chrome.driver" , "src/main/resources/driver/chromedriver.exe"); }
+    private WebDriver driver = new ChromeDriver();
+
 
     //For Linux + Headless browser
-
+/*
     static{
         System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
     }
@@ -32,9 +36,14 @@ public class bionicStepDefs {
             "--disable-gpu",
             "--ignore-certificate-errors",
             "--disable-setuid-sandbox"));
+*/
+
     private bionicLandingPage blp =new bionicLandingPage(driver);
     private bionicWebForm bwf = new bionicWebForm(driver);
-
+    private generateAPIToken gapit = new generateAPIToken();
+    private GETRequest getRequest = new GETRequest();
+    private GenerateRandomString grs = new GenerateRandomString();
+    private String companyName;
 
     @Given("^I navigate to bionic landing page with \"([^\"]*)\"$")
     public void i_navigate_to_bionic_landing_page_with(String url) throws Throwable {
@@ -68,7 +77,9 @@ public class bionicStepDefs {
 
     @And("^I enter valid company name \"([^\"]*)\"$")
     public void iEnterValidCompanyName(String cname) throws Throwable {
-        bwf.enterCompanyName(cname);
+        companyName = cname+"-"+grs.randomString(5);
+        bwf.enterCompanyName(companyName);
+        System.out.println(companyName);
     }
 
     @And("^I enter valid phone number \"([^\"]*)\"$")
@@ -83,5 +94,8 @@ public class bionicStepDefs {
 
     @Then("^I verify lead is created in SalesForce$")
     public void iVerifyLeadIsCreatedInSalesForce() {
+        String token = gapit.generateToken();
+        System.out.println("Token value is "+token);
+        getRequest.salesforceGET(token,"Api Endpoint here");
     }
 }
