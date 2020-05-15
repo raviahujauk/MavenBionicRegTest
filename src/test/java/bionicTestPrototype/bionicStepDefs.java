@@ -95,8 +95,8 @@ public class bionicStepDefs {
     @Then("^I verify lead is created in SalesForce$")
     public void iVerifyLeadIsCreatedInSalesForce() {
         String token = gapit.generateToken();
-        System.out.println(companyName);
+        System.out.println("Company Name: "+companyName);
         String queryResponse = getRequest.salesforceGET(token,"lead",companyName);
-        System.out.println("Query response is : "+queryResponse);
+        System.out.println("SalesForce Lead is : "+queryResponse);
     }
 }
