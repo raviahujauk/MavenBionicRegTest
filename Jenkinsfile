@@ -7,7 +7,9 @@ node('master') {
             cleanWs()
 			env.WORKSPACE_LOCAL=sh(returnStdout:true,script:'pwd').trim()
 			echo"Workspace set to:"+env.WORKSPACE_LOCAL
-			echo"Build time: "+env.BUILD_TIME
+			echo"BUILD_ID: "+env.BUILD_ID
+			echo"TAG_UNIXTIME: "+env.TAG_UNIXTIME
+			echo"TAG_DATE: "+env.TAG_DATE
 		}
 
 		stage('Checkout Self') {
