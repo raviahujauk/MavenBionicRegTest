@@ -7,9 +7,8 @@ node('master') {
             cleanWs()
 			env.WORKSPACE_LOCAL=sh(returnStdout:true,script:'pwd').trim()
 			echo"Workspace set to:"+env.WORKSPACE_LOCAL
-			echo"BUILD_ID: "+ env.build_timestamp
-			echo"TAG_UNIXTIME: "+ TAG_UNIXTIME
-			echo"TAG_DATE: "+ TAG_DATE
+			echo"BUILD_ID: "+env.BUILD_ID
+
 		}
 
 		stage('Checkout Self') {
@@ -44,7 +43,7 @@ node('master') {
 					},
 					"labels":'''+ labels + ''',
 					"description":"''' + description + '''",
-					"summary": "Automated Regression Execution @ ''' + env.build_timestamp + ' ' + environment +''' ",
+					"summary": "Automated Regression Execution @ ''' + env.BUILD_ID + ' ' + environment +''' ",
 					"issuetype":{
 					"id": "''' + testExecutionFieldId + '''"
 					},
