@@ -24,5 +24,5 @@ Feature: Verify bionic site is live
     Then I verify lead is created in SalesForce
     And I close the browser
       Examples:
-      | url                                                         | full-name   | email                   | company-name | phone        |
-      | https://bionic-qa.makeiteasy.com/business-energy/web-form/  | Ravi Ahuja  | ravi.ahuja@bionic.co.uk | Jeevat LTD   | 07504555555  |
+      | url                                                           | full-name   | email                   | company-name | phone        |
+      | https://bionic-qa.makeiteasy.com/business-energy/web-form/    | Ravi Ahuja  | ravi.ahuja@bionic.co.uk | Jeevat LTD   | 07504555555  |

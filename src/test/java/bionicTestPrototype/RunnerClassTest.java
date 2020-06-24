@@ -12,7 +12,7 @@ import cucumber.api.junit.Cucumber;
                 "json:TargetReport/cucumber.json",
                 "junit:TargetReport/cucumber.xml",
                 "rerun:TargetReport/rerun.txt" },
-        tags = {"@RegTest"}
+        tags = {"@UKP-TST1"}
 )
 
 public class RunnerClassTest {

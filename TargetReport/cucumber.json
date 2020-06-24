@@ -3,55 +3,151 @@
     "line": 1,
     "elements": [
       {
-        "line": 13,
-        "name": "Verify title of landing page",
+        "line": 19,
+        "name": "Verify current page for electric",
         "description": "",
-        "id": "verify-bionic-site-is-live;verify-title-of-landing-page;;2",
+        "id": "verify-ukp-site-scenarios;verify-current-page-for-electric;;2",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 20968182400,
+              "duration": 7928145501,
               "status": "passed"
             },
             "line": 8,
-            "name": "I navigate to bionic landing page with \"https://bionic.co.uk/\"",
+            "name": "I navigate to UKP landing page with \"https://qa.ukpower.co.uk/\"",
             "match": {
               "arguments": [
                 {
-                  "val": "https://bionic.co.uk/",
-                  "offset": 40
+                  "val": "https://qa.ukpower.co.uk/",
+                  "offset": 37
                 }
               ],
-              "location": "bionicStepDefs.i_navigate_to_bionic_landing_page_with(String)"
+              "location": "ukpStepDefs.i_navigate_to_UKP_landing_page_with(String)"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 8074000,
+              "duration": 78149999,
               "status": "passed"
             },
             "line": 9,
-            "name": "I verify tile content \"Bionic - Your Business Essentials Sorted | Bionic\"",
+            "name": "I enter postcode \"ha85hf\"",
             "match": {
               "arguments": [
                 {
-                  "val": "Bionic - Your Business Essentials Sorted | Bionic",
-                  "offset": 23
+                  "val": "ha85hf",
+                  "offset": 18
                 }
               ],
-              "location": "bionicStepDefs.i_verify_tile(String)"
+              "location": "ukpStepDefs.i_enter_postcode(String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 338060600,
+              "duration": 6127586501,
               "status": "passed"
             },
             "line": 10,
+            "name": "I click Compare now button",
+            "match": {
+              "location": "ukpStepDefs.i_click_Compare_now_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1157515599,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I select Do you use gas option \"No\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "No",
+                  "offset": 32
+                }
+              ],
+              "location": "ukpStepDefs.i_select_Do_you_use_gas_option(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1102535100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I select Economy seven option \"No\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "No",
+                  "offset": 31
+                }
+              ],
+              "location": "ukpStepDefs.i_select_Economy_seven_option(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1079821400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I select Energy Usage Option \"No\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "No",
+                  "offset": 30
+                }
+              ],
+              "location": "ukpStepDefs.i_select_Energy_Usage_Option(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1108406699,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I select size of property \"1Bedroom\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1Bedroom",
+                  "offset": 27
+                }
+              ],
+              "location": "ukpStepDefs.i_select_size_of_property(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 209322501,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click See Result button",
+            "match": {
+              "location": "ukpStepDefs.i_click_See_Result_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2212460000,
+              "status": "passed"
+            },
+            "line": 16,
             "name": "I close the browser",
             "match": {
               "location": "bionicStepDefs.i_close_the_browser()"
@@ -61,229 +157,16 @@
         ],
         "tags": [
           {
-            "name": "@RegTest"
-          },
-          {
-            "name": "@DIG-5"
-          }
-        ]
-      },
-      {
-        "line": 14,
-        "name": "Verify title of landing page",
-        "description": "",
-        "id": "verify-bionic-site-is-live;verify-title-of-landing-page;;3",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 18946747300,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "I navigate to bionic landing page with \"https://bionic-qa.makeiteasy.com/\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "https://bionic-qa.makeiteasy.com/",
-                  "offset": 40
-                }
-              ],
-              "location": "bionicStepDefs.i_navigate_to_bionic_landing_page_with(String)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 8293400,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "I verify tile content \"Bionic - Your Business Essentials Sorted | Bionic\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Bionic - Your Business Essentials Sorted | Bionic",
-                  "offset": 23
-                }
-              ],
-              "location": "bionicStepDefs.i_verify_tile(String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 4114624400,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "I close the browser",
-            "match": {
-              "location": "bionicStepDefs.i_close_the_browser()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@RegTest"
-          },
-          {
-            "name": "@DIG-5"
-          }
-        ]
-      },
-      {
-        "line": 28,
-        "name": "Web form and lead creation",
-        "description": "",
-        "id": "verify-bionic-site-is-live;web-form-and-lead-creation;;2",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 18918059500,
-              "status": "passed"
-            },
-            "line": 18,
-            "name": "I navigate to bionic web-form page \"https://bionic-qa.makeiteasy.com/business-energy/web-form/\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "https://bionic-qa.makeiteasy.com/business-energy/web-form/",
-                  "offset": 36
-                }
-              ],
-              "location": "bionicStepDefs.iNavigateToBionicWebFormPage(String)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 210788500,
-              "status": "passed"
-            },
-            "line": 19,
-            "name": "I enter full name \"Ravi Ahuja\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Ravi Ahuja",
-                  "offset": 19
-                }
-              ],
-              "location": "bionicStepDefs.iEnterFullName(String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 235671400,
-              "status": "passed"
-            },
-            "line": 20,
-            "name": "I enter valid email address \"ravi.ahuja@bionic.co.uk\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "ravi.ahuja@bionic.co.uk",
-                  "offset": 29
-                }
-              ],
-              "location": "bionicStepDefs.iEnterValidEmailAddress(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 198139400,
-              "status": "passed"
-            },
-            "line": 21,
-            "name": "I enter valid company name \"Jeevat LTD\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Jeevat LTD",
-                  "offset": 28
-                }
-              ],
-              "location": "bionicStepDefs.iEnterValidCompanyName(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 152336800,
-              "status": "passed"
-            },
-            "line": 22,
-            "name": "I enter valid phone number \"07504555555\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "07504555555",
-                  "offset": 28
-                }
-              ],
-              "location": "bionicStepDefs.iEnterValidPhoneNumber(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 125930900,
-              "status": "passed"
-            },
-            "line": 23,
-            "name": "I click Get a quote button",
-            "match": {
-              "location": "bionicStepDefs.iClickGetAQuoteButton()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 6440464200,
-              "status": "passed"
-            },
-            "line": 24,
-            "name": "I verify lead is created in SalesForce",
-            "match": {
-              "location": "bionicStepDefs.iVerifyLeadIsCreatedInSalesForce()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 4134748800,
-              "status": "passed"
-            },
-            "line": 25,
-            "name": "I close the browser",
-            "match": {
-              "location": "bionicStepDefs.i_close_the_browser()"
-            },
-            "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@RegTest"
-          },
-          {
-            "name": "@DIG-8"
+            "name": "@UKP-TST1"
           }
         ]
       }
     ],
-    "name": "Verify bionic site is live",
-    "description": "  As a user\n  I navigate to bionic site\n  So that site opens successfully",
-    "id": "verify-bionic-site-is-live",
+    "name": "Verify UKP site scenarios",
+    "description": "  As a user\n  I navigate to UKP QA site\n  So that regression test pass successfully",
+    "id": "verify-ukp-site-scenarios",
     "keyword": "Feature",
-    "uri": "src/test/resources/BionicSiteLive.feature",
+    "uri": "src/test/resources/UKP.feature",
     "tags": []
   }
 ]

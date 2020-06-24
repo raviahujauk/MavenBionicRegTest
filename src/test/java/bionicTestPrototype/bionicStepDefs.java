@@ -16,12 +16,12 @@ import org.openqa.selenium.chrome.ChromeOptions;
 public class bionicStepDefs {
 
     //For windown with head browser
-    //static { System.setProperty("webdriver.chrome.driver" , "src/main/resources/driver/chromedriver.exe"); }
-    //private WebDriver driver = new ChromeDriver();
+    static { System.setProperty("webdriver.chrome.driver" , "src/main/resources/driver/chromedriver.exe"); }
+    private WebDriver driver = new ChromeDriver();
 
 
     //For Linux + Headless browser
-//    /*
+    /*
     static{
         System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
     }
@@ -35,7 +35,7 @@ public class bionicStepDefs {
             "--disable-gpu",
             "--ignore-certificate-errors",
             "--disable-setuid-sandbox"));
-//    */
+    */
 
     private bionicLandingPage blp =new bionicLandingPage(driver);
     private bionicWebForm bwf = new bionicWebForm(driver);
@@ -56,7 +56,8 @@ public class bionicStepDefs {
 
     @Then("^I close the browser$")
     public void i_close_the_browser() throws Exception {
-        driver.close();
+        //driver.close();
+        driver.quit();
     }
 
    @Given("^I navigate to bionic web-form page \"([^\"]*)\"$")
