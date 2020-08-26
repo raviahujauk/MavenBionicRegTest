@@ -12,7 +12,7 @@ on:
 jobs:
   build:
 
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
 
     steps:
     - uses: actions/checkout@v2
@@ -22,3 +22,20 @@ jobs:
         java-version: 1.8
     - name: Build with Maven
       run: mvn -B package --file pom.xml
+
+    - name: Cucumber Report to Annotations
+      uses: deblockt/cucumber-report-annotations-action@v1.6
+      with:
+        access-token: ${{ secrets.GITHUB_TOKEN }}
+        path: "**/TargetReport/cucumber.json"
+
+    - name: Notify
+      uses: innocarpe/actions-slack@v1
+      with:
+        status: ${{ job.status }} # Required
+        success_text: 'Step Succeeded 🚀' # Optional
+        failure_text: 'Step Failed 😱' # Optional
+        cancelled_text: 'Step Cancelled ⚠️' # Optional
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Required
+        SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }} # Required
