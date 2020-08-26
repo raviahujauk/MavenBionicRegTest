@@ -3,15 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="892097e6-a01e-412d-815a-099e55594323" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TargetReport/cucumber-html-report/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/TargetReport/cucumber-html-report/report.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TargetReport/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/TargetReport/cucumber.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TargetReport/cucumber.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TargetReport/cucumber.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BionicPages/bionicWebForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BionicPages/bionicWebForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SalesForce/generateAPIToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SalesForce/generateAPIToken.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/bionicTestPrototype/RunnerClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bionicTestPrototype/RunnerClassTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/BionicSiteLive.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/BionicSiteLive.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/UKP.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/UKP.feature" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,7 +21,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/bionicTestPrototype/RunnerClassTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+              <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -74,8 +65,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/UKP.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+            <state relative-caret-position="85">
+              <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -107,8 +98,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/resources/BionicSiteLive.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="260">
+              <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -176,10 +167,10 @@
         <option value="$PROJECT_DIR$/src/test/java/bionicTestPrototype/ukpStepDefs.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/BionicPages/webDriver.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/UKP.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/bionicTestPrototype/RunnerClassTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/BionicPages/bionicWebForm.java" />
         <option value="$PROJECT_DIR$/src/main/java/SalesForce/generateAPIToken.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/UKP.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/bionicTestPrototype/RunnerClassTest.java" />
         <option value="$PROJECT_DIR$/src/test/resources/BionicSiteLive.feature" />
       </list>
     </option>
@@ -213,107 +204,6 @@
               <item name="MavenBionicRegTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="MavenBionicRegTest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MavenBionicRegTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MavenBionicRegTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MavenBionicRegTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MavenBionicRegTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MavenBionicRegTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MavenBionicRegTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="BionicPages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MavenBionicRegTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MavenBionicRegTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="SalesForce" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MavenBionicRegTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MavenBionicRegTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="UKPowerPages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MavenBionicRegTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MavenBionicRegTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MavenBionicRegTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MavenBionicRegTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MavenBionicRegTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MavenBionicRegTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MavenBionicRegTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MavenBionicRegTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="driver" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MavenBionicRegTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MavenBionicRegTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MavenBionicRegTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MavenBionicRegTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MavenBionicRegTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MavenBionicRegTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="bionicTestPrototype" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MavenBionicRegTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MavenBionicRegTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MavenBionicRegTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MavenBionicRegTest" type="462c0819:PsiDirectoryNode" />
-              <item name="TargetReport" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -729,9 +619,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RunnerClassTest_(1) - 2020.08.07 at 20h 46m 00s.xml">
-      <configuration name="RunnerClassTest (1)" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RunnerClassTest_(1) - 2020.08.07 at 20h 46m 50s.xml">
       <configuration name="RunnerClassTest (1)" configurationId="JUnit" />
     </history-entry>
@@ -759,6 +646,9 @@
     <history-entry file="RunnerClassTest_(1) - 2020.08.26 at 22h 18m 08s.xml">
       <configuration name="RunnerClassTest (1)" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RunnerClassTest_(1) - 2020.08.26 at 22h 49m 39s.xml">
+      <configuration name="RunnerClassTest (1)" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -772,7 +662,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26153848" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26153848" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -786,7 +676,7 @@
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Run" order="5" weight="0.53641206" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.20071048" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.4986577" visible="true" weight="0.19715808" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4986577" visible="true" weight="0.37300178" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5013423" side_tool="true" weight="0.34560907" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4986577" weight="0.25044405" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.24156305" />
@@ -922,16 +812,6 @@
     <entry file="file://$PROJECT_DIR$/TargetReport/cucumber.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/bionicTestPrototype/RunnerClassTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TargetReport/cucumber-html-report/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -989,15 +869,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/UKP.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+        <state relative-caret-position="85">
+          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/bionicTestPrototype/RunnerClassTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/BionicSiteLive.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="260">
+          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
         </state>
       </provider>
     </entry>
