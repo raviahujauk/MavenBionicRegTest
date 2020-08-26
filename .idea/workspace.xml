@@ -3,6 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="892097e6-a01e-412d-815a-099e55594323" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
+=======
+      <change beforePath="$PROJECT_DIR$/target/test-classes/BionicSiteLive.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BionicSiteLive.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/bionicTestPrototype/RunnerClassTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/bionicTestPrototype/RunnerClassTest.class" afterDir="false" />
+>>>>>>> master
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,6 +22,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/bionicTestPrototype/RunnerClassTest.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -34,6 +40,13 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
               <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+>>>>>>> master
             </state>
           </provider>
         </entry>
@@ -51,8 +64,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/bionicTestPrototype/bionicStepDefs.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="1428">
               <caret line="97" column="38" selection-start-line="97" selection-start-column="38" selection-end-line="97" selection-end-column="38" />
+=======
+            <state relative-caret-position="360">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+>>>>>>> master
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#3201#3202#0" expanded="true" />
@@ -65,8 +83,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/UKP.feature">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="85">
               <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="11" />
+=======
+            <state relative-caret-position="100">
+              <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+>>>>>>> master
             </state>
           </provider>
         </entry>
@@ -74,8 +97,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/SalesForce/GETRequest.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="272">
               <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+=======
+            <state relative-caret-position="320">
+              <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+>>>>>>> master
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -86,8 +114,37 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/SalesForce/generateAPIToken.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="408">
               <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+=======
+            <state relative-caret-position="134">
+              <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+>>>>>>> master
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/BionicSiteLive.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TargetReport/cucuber.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/target/test-classes/bionicTestPrototype/RunnerClassTest.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -96,15 +153,17 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/BionicSiteLive.feature">
+        <entry file="file://$PROJECT_DIR$/target/test-classes/BionicSiteLive.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+            <state relative-caret-position="200">
+              <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+>>>>>>> master
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/main/java/BionicPages/bionicWebForm.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="561">
@@ -112,6 +171,17 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+=======
+        <entry file="file://$PROJECT_DIR$/TargetReport/cucumber-html-report/index.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/BionicSiteLive.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+>>>>>>> master
             </state>
           </provider>
         </entry>
@@ -156,6 +226,7 @@
         <option value="$PROJECT_DIR$/src/main/java/Util/GenerateRandomString.java" />
         <option value="$PROJECT_DIR$/src/main/resources/config/SalesForceConfig.conf" />
         <option value="$PROJECT_DIR$/Jenkinsfile" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/main/java/SalesForce/GETRequest.java" />
         <option value="$PROJECT_DIR$/src/main/java/webDriver/webDriver.java" />
         <option value="$PROJECT_DIR$/src/main/java/BionicPages/bionicLandingPage.java" />
@@ -172,6 +243,10 @@
         <option value="$PROJECT_DIR$/src/test/resources/UKP.feature" />
         <option value="$PROJECT_DIR$/src/test/java/bionicTestPrototype/RunnerClassTest.java" />
         <option value="$PROJECT_DIR$/src/test/resources/BionicSiteLive.feature" />
+=======
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/bionicTestPrototype/bionicStepDefs.java" />
+>>>>>>> master
       </list>
     </option>
   </component>
@@ -193,6 +268,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -205,10 +282,89 @@
               <item name="MavenBionicRegTest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+<<<<<<< HEAD
+=======
+            <path>
+              <item name="MavenBionicRegTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MavenBionicRegTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MavenBionicRegTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MavenBionicRegTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MavenBionicRegTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MavenBionicRegTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="BionicPages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MavenBionicRegTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MavenBionicRegTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MavenBionicRegTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MavenBionicRegTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="driver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MavenBionicRegTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MavenBionicRegTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MavenBionicRegTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MavenBionicRegTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MavenBionicRegTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MavenBionicRegTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bionicTestPrototype" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MavenBionicRegTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MavenBionicRegTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MavenBionicRegTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MavenBionicRegTest" type="462c0819:PsiDirectoryNode" />
+              <item name="TargetReport" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MavenBionicRegTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MavenBionicRegTest" type="462c0819:PsiDirectoryNode" />
+              <item name="TargetReport" type="462c0819:PsiDirectoryNode" />
+              <item name="cucumber-html-report" type="462c0819:PsiDirectoryNode" />
+            </path>
+>>>>>>> master
           </expand>
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
       <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
@@ -221,6 +377,13 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+=======
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589226924081" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+>>>>>>> master
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -545,6 +708,7 @@
       <option name="project" value="LOCAL" />
       <updated>1589038886843</updated>
     </task>
+<<<<<<< HEAD
     <task id="LOCAL-00026" summary="Jenkinsfile - Changed version on Maven (Changes in Jenkinsfile file-21&#10;)">
       <created>1589040809094</created>
       <option name="number" value="00026" />
@@ -624,6 +788,21 @@
     </history-entry>
     <history-entry file="RunnerClassTest_(1) - 2020.08.07 at 20h 52m 05s.xml">
       <configuration name="RunnerClassTest (1)" configurationId="JUnit" />
+=======
+    <task id="LOCAL-00026" summary="Jenkinsfile - Changed version on Maven (Changes in Jenkinsfile file-20&#10;)">
+      <created>1589226855178</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1589226855179</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="RunnerClassTest - 2020.05.08 at 20h 11m 37s.xml">
+      <configuration name="RunnerClassTest" configurationId="JUnit" />
+>>>>>>> master
     </history-entry>
     <history-entry file="RunnerClassTest_(1) - 2020.08.19 at 00h 44m 13s.xml">
       <configuration name="RunnerClassTest (1)" configurationId="JUnit" />
@@ -649,6 +828,9 @@
     <history-entry file="RunnerClassTest_(1) - 2020.08.26 at 22h 49m 39s.xml">
       <configuration name="RunnerClassTest (1)" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RunnerClassTest - 2020.05.11 at 16h 52m 55s.xml">
+      <configuration name="RunnerClassTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -662,7 +844,11 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <layout>
+<<<<<<< HEAD
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26153848" />
+=======
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21744967" />
+>>>>>>> master
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -670,6 +856,7 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
       <window_info anchor="bottom" id="Debug" order="2" weight="0.39964476" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
@@ -680,6 +867,18 @@
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5013423" side_tool="true" weight="0.34560907" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4986577" weight="0.25044405" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.24156305" />
+=======
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32152975" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49932885" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50067115" side_tool="true" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.34844193" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3286119" />
+>>>>>>> master
       <window_info anchor="bottom" id="Job test results" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -827,6 +1026,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/bionicTestPrototype/bionicStepDefs.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="1428">
           <caret line="97" column="38" selection-start-line="97" selection-start-column="38" selection-end-line="97" selection-end-column="38" />
           <folding>
@@ -834,13 +1034,39 @@
             <element signature="e#3201#3202#0" expanded="true" />
             <element signature="e#3237#3238#0" expanded="true" />
           </folding>
+=======
+        <state relative-caret-position="100">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BionicPages/bionicLandingPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+>>>>>>> master
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SalesForce/GETRequest.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="272">
           <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+=======
+        <state relative-caret-position="360">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+>>>>>>> master
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -849,6 +1075,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SalesForce/generateAPIToken.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="408">
           <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
           <folding>
@@ -861,12 +1088,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="38" column="25" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
+=======
+        <state relative-caret-position="200">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/bionicTestPrototype/bionicStepDefs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+>>>>>>> master
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/test/resources/UKP.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -878,16 +1117,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+=======
+    <entry file="file://$PROJECT_DIR$/target/test-classes/bionicTestPrototype/RunnerClassTest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+>>>>>>> master
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/test/resources/BionicSiteLive.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+=======
+    <entry file="file://$PROJECT_DIR$/target/test-classes/BionicSiteLive.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+>>>>>>> master
         </state>
       </provider>
     </entry>

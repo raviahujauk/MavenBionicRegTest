@@ -1,1 +1,4 @@
+<<<<<<< HEAD
 src/test/resources/UKP.feature:19:20
+=======
+>>>>>>> master

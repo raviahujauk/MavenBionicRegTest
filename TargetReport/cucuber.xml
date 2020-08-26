@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="19.395257">
+    <testcase classname="Verify bionic site is live" name="Verify title of landing page" time="19.395257">
+        <system-out>
+            <![CDATA[Given I navigate to bionic landing page with "https://bionic.co.uk/"........passed
+Then I verify tile content "Bionic - Your Business Essentials Sorted | Bionic".passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
