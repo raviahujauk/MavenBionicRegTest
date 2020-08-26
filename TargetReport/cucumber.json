@@ -1,0 +1,754 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 13,
+        "name": "Verify title of landing page",
+        "description": "",
+        "id": "verify-bionic-site-is-live;verify-title-of-landing-page;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 17370098800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I navigate to bionic landing page with \"https://bionic.co.uk/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://bionic.co.uk/",
+                  "offset": 40
+                }
+              ],
+              "location": "bionicStepDefs.i_navigate_to_bionic_landing_page_with(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12295000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I verify tile content \"Bionic - Your Business Essentials Sorted | Bionic\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Bionic - Your Business Essentials Sorted | Bionic",
+                  "offset": 23
+                }
+              ],
+              "location": "bionicStepDefs.i_verify_tile(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 797440100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I close the browser",
+            "match": {
+              "location": "bionicStepDefs.i_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RegTest"
+          },
+          {
+            "name": "@DIG-5"
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "Verify title of landing page",
+        "description": "",
+        "id": "verify-bionic-site-is-live;verify-title-of-landing-page;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12764280900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I navigate to bionic landing page with \"https://bionic-qa.makeiteasy.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://bionic-qa.makeiteasy.com/",
+                  "offset": 40
+                }
+              ],
+              "location": "bionicStepDefs.i_navigate_to_bionic_landing_page_with(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12804000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I verify tile content \"Bionic - Your Business Essentials Sorted | Bionic\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Bionic - Your Business Essentials Sorted | Bionic",
+                  "offset": 23
+                }
+              ],
+              "location": "bionicStepDefs.i_verify_tile(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 760081000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I close the browser",
+            "match": {
+              "location": "bionicStepDefs.i_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RegTest"
+          },
+          {
+            "name": "@DIG-5"
+          }
+        ]
+      },
+      {
+        "line": 28,
+        "name": "Web form and lead creation",
+        "description": "",
+        "id": "verify-bionic-site-is-live;web-form-and-lead-creation;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 15119498000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I navigate to bionic web-form page \"https://bionic-qa.makeiteasy.com/business-energy/web-form/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://bionic-qa.makeiteasy.com/business-energy/web-form/",
+                  "offset": 36
+                }
+              ],
+              "location": "bionicStepDefs.iNavigateToBionicWebFormPage(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 188891000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I enter full name \"Ravi Ahuja\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ravi Ahuja",
+                  "offset": 19
+                }
+              ],
+              "location": "bionicStepDefs.iEnterFullName(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 309910800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I enter valid email address \"ravi.ahuja@bionic.co.uk\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ravi.ahuja@bionic.co.uk",
+                  "offset": 29
+                }
+              ],
+              "location": "bionicStepDefs.iEnterValidEmailAddress(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 221353900,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I enter valid company name \"Jeevat LTD\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Jeevat LTD",
+                  "offset": 28
+                }
+              ],
+              "location": "bionicStepDefs.iEnterValidCompanyName(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 148230400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I enter valid phone number \"07504555555\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "07504555555",
+                  "offset": 28
+                }
+              ],
+              "location": "bionicStepDefs.iEnterValidPhoneNumber(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 138286100,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I click Get a quote button",
+            "match": {
+              "location": "bionicStepDefs.iClickGetAQuoteButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4197219300,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I verify lead is created in SalesForce",
+            "match": {
+              "location": "bionicStepDefs.iVerifyLeadIsCreatedInSalesForce()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 791955400,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I close the browser",
+            "match": {
+              "location": "bionicStepDefs.i_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RegTest"
+          },
+          {
+            "name": "@DIG-8"
+          }
+        ]
+      },
+      {
+        "line": 29,
+        "name": "Web form and lead creation",
+        "description": "",
+        "id": "verify-bionic-site-is-live;web-form-and-lead-creation;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 15333717500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I navigate to bionic web-form page \"https://bionic-qa.makeiteasy.com/business-energy/web-form/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://bionic-qa.makeiteasy.com/business-energy/web-form/",
+                  "offset": 36
+                }
+              ],
+              "location": "bionicStepDefs.iNavigateToBionicWebFormPage(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 170919600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I enter full name \"Ravi Ahuja\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ravi Ahuja",
+                  "offset": 19
+                }
+              ],
+              "location": "bionicStepDefs.iEnterFullName(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 250504000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I enter valid email address \"ravi.ahuja@bionic.co.uk\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ravi.ahuja@bionic.co.uk",
+                  "offset": 29
+                }
+              ],
+              "location": "bionicStepDefs.iEnterValidEmailAddress(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 190315100,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I enter valid company name \"Jeevat LTD\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Jeevat LTD",
+                  "offset": 28
+                }
+              ],
+              "location": "bionicStepDefs.iEnterValidCompanyName(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 141285200,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I enter valid phone number \"07504555555\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "07504555555",
+                  "offset": 28
+                }
+              ],
+              "location": "bionicStepDefs.iEnterValidPhoneNumber(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 82988800,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I click Get a quote button",
+            "match": {
+              "location": "bionicStepDefs.iClickGetAQuoteButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4123295900,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I verify lead is created in SalesForce",
+            "match": {
+              "location": "bionicStepDefs.iVerifyLeadIsCreatedInSalesForce()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 781825400,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I close the browser",
+            "match": {
+              "location": "bionicStepDefs.i_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RegTest"
+          },
+          {
+            "name": "@DIG-8"
+          }
+        ]
+      }
+    ],
+    "name": "Verify bionic site is live",
+    "description": "  As a user\n  I navigate to bionic site\n  So that site opens successfully",
+    "id": "verify-bionic-site-is-live",
+    "keyword": "Feature",
+    "uri": "src/test/resources/BionicSiteLive.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 19,
+        "name": "Verify current page for electric",
+        "description": "",
+        "id": "verify-ukp-site-scenarios;verify-current-page-for-electric;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12622928000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I navigate to UKP landing page with \"https://qa.ukpower.co.uk/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://qa.ukpower.co.uk/",
+                  "offset": 37
+                }
+              ],
+              "location": "ukpStepDefs.i_navigate_to_UKP_landing_page_with(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 97391200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter postcode \"ha85hf\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ha85hf",
+                  "offset": 18
+                }
+              ],
+              "location": "ukpStepDefs.i_enter_postcode(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2959818300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click Compare now button",
+            "match": {
+              "location": "ukpStepDefs.i_click_Compare_now_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"id\",\"selector\":\"useGas-option-No\"}\n  (Session info: chrome\u003d84.0.4147.135)\n  (Driver info: chromedriver\u003d72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform\u003dWindows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027MIC-LAP225\u0027, ip: \u0027192.168.0.17\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002712.0.2\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.69 (3c16f8a135abc..., userDataDir: C:\\Users\\RAVI~1.AHU\\AppData...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:59776}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 84.0.4147.135, webStorageEnabled: true}\nSession ID: d21030f38c06673bbc2a1de1e71ed2aa\n*** Element info: {Using\u003did, value\u003duseGas-option-No}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat UKPowerPages.ukpCurrentPlanPage.doYouUseGas(ukpCurrentPlanPage.java:18)\r\n\tat bionicTestPrototype.ukpStepDefs.i_select_Do_you_use_gas_option(ukpStepDefs.java:36)\r\n\tat ✽.I select Do you use gas option \"No\"(src/test/resources/UKP.feature:11)\r\n",
+              "duration": 21891900,
+              "status": "failed"
+            },
+            "line": 11,
+            "name": "I select Do you use gas option \"No\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "No",
+                  "offset": 32
+                }
+              ],
+              "location": "ukpStepDefs.i_select_Do_you_use_gas_option(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I select Economy seven option \"No\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "No",
+                  "offset": 31
+                }
+              ],
+              "location": "ukpStepDefs.i_select_Economy_seven_option(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "I select Energy Usage Option \"No\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "No",
+                  "offset": 30
+                }
+              ],
+              "location": "ukpStepDefs.i_select_Energy_Usage_Option(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "I select size of property \"1Bedroom\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1Bedroom",
+                  "offset": 27
+                }
+              ],
+              "location": "ukpStepDefs.i_select_size_of_property(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "I click See Result button",
+            "match": {
+              "location": "ukpStepDefs.i_click_See_Result_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "I close the ukp browser",
+            "match": {
+              "location": "ukpStepDefs.i_close_the_ukp_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@UKP-TST1"
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "Verify current page for electric",
+        "description": "",
+        "id": "verify-ukp-site-scenarios;verify-current-page-for-electric;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12441064100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I navigate to UKP landing page with \"https://qa.ukpower.co.uk/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://qa.ukpower.co.uk/",
+                  "offset": 37
+                }
+              ],
+              "location": "ukpStepDefs.i_navigate_to_UKP_landing_page_with(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 136405600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter postcode \"ha85bd\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ha85bd",
+                  "offset": 18
+                }
+              ],
+              "location": "ukpStepDefs.i_enter_postcode(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2670880500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click Compare now button",
+            "match": {
+              "location": "ukpStepDefs.i_click_Compare_now_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"id\",\"selector\":\"useGas-option-No\"}\n  (Session info: chrome\u003d84.0.4147.135)\n  (Driver info: chromedriver\u003d72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform\u003dWindows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027MIC-LAP225\u0027, ip: \u0027192.168.0.17\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002712.0.2\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.69 (3c16f8a135abc..., userDataDir: C:\\Users\\RAVI~1.AHU\\AppData...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:59823}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 84.0.4147.135, webStorageEnabled: true}\nSession ID: 237bc10c3f2f6507c323c40801f3d4ab\n*** Element info: {Using\u003did, value\u003duseGas-option-No}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat UKPowerPages.ukpCurrentPlanPage.doYouUseGas(ukpCurrentPlanPage.java:18)\r\n\tat bionicTestPrototype.ukpStepDefs.i_select_Do_you_use_gas_option(ukpStepDefs.java:36)\r\n\tat ✽.I select Do you use gas option \"No\"(src/test/resources/UKP.feature:11)\r\n",
+              "duration": 22313700,
+              "status": "failed"
+            },
+            "line": 11,
+            "name": "I select Do you use gas option \"No\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "No",
+                  "offset": 32
+                }
+              ],
+              "location": "ukpStepDefs.i_select_Do_you_use_gas_option(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I select Economy seven option \"No\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "No",
+                  "offset": 31
+                }
+              ],
+              "location": "ukpStepDefs.i_select_Economy_seven_option(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "I select Energy Usage Option \"No\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "No",
+                  "offset": 30
+                }
+              ],
+              "location": "ukpStepDefs.i_select_Energy_Usage_Option(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "I select size of property \"2to3Bedroom\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2to3Bedroom",
+                  "offset": 27
+                }
+              ],
+              "location": "ukpStepDefs.i_select_size_of_property(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "I click See Result button",
+            "match": {
+              "location": "ukpStepDefs.i_click_See_Result_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "I close the ukp browser",
+            "match": {
+              "location": "ukpStepDefs.i_close_the_ukp_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@UKP-TST1"
+          }
+        ]
+      }
+    ],
+    "name": "Verify UKP site scenarios",
+    "description": "  As a user\n  I navigate to UKP QA site\n  So that regression test pass successfully",
+    "id": "verify-ukp-site-scenarios",
+    "keyword": "Feature",
+    "uri": "src/test/resources/UKP.feature",
+    "tags": []
+  }
+]

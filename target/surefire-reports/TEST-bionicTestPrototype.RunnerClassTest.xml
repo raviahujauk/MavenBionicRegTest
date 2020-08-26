@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="bionicTestPrototype.RunnerClassTest" time="68.803" tests="3" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="JOB_NAME" value="Cucumber Framework"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="NUMBER_OF_PROCESSORS" value="8"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="C:\Users\ravi.ahuja\.jenkins"/>
+    <property name="FPS_BROWSER_USER_PROFILE_STRING" value="Default"/>
+    <property name="HUDSON_SERVER_COOKIE" value="511db27942a6b0f2"/>
+    <property name="POM_ARTIFACTID" value="Maven-BionicRegTest"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="POM_DISPLAYNAME" value="Maven-BionicRegTest"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="TEMP" value="C:\Users\RAVI~1.AHU\AppData\Local\Temp"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="java.runtime.version" value="12.0.2+10"/>
+    <property name="FPS_BROWSER_APP_PROFILE_STRING" value="Internet Explorer"/>
+    <property name="HOMESHARE" value="\\mic-domain\mic\home\Ravi.Ahuja"/>
+    <property name="user.name" value="Ravi.Ahuja"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="ProgramFiles" value="C:\Program Files (x86)"/>
+    <property name="PROMPT" value="$P$G"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="Cucumber Framework"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/Cucumber%20Framework/20/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#20"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-12.0.2\bin"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="LOCALAPPDATA" value="C:\Users\ravi.ahuja\AppData\Local"/>
+    <property name="java.version" value="12.0.2"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="USERNAME" value="Ravi.Ahuja"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="PROCESSOR_ARCHITEW6432" value="AMD64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="BUILD_ID" value="20"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="maven.conf" value="C:\Users\ravi.ahuja\Maven\conf"/>
+    <property name="HOMEDRIVE" value="L:"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="56.0"/>
+    <property name="=::" value="::\"/>
+    <property name="ESET_OPTIONS" value="                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               "/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="GB"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-12.0.2"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="os.version" value="10.0"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/Cucumber%20Framework/20/display/redirect"/>
+    <property name="POM_VERSION" value="1.0-SNAPSHOT"/>
+    <property name="TMP" value="C:\Users\RAVI~1.AHU\AppData\Local\Temp"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.version" value="12.0.2+10"/>
+    <property name="user.variant" value=""/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/Cucumber%20Framework/display/redirect"/>
+    <property name="USERDOMAIN_ROAMINGPROFILE" value="MIC-DOMAIN"/>
+    <property name="CommonProgramFiles" value="C:\Program Files (x86)\Common Files"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk-12.0.2"/>
+    <property name="ComSpec" value="C:\windows\system32\cmd.exe"/>
+    <property name="USERDNSDOMAIN" value="MAKEITCHEAPER.LOCAL"/>
+    <property name="HOMEPATH" value="\"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="COMPUTERNAME" value="MIC-LAP225"/>
+    <property name="user.script" value=""/>
+    <property name="POM_GROUPID" value="Maven-BionicRegTest"/>
+    <property name="user.home" value="C:\Users\ravi.ahuja"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="BUILD_TAG" value="jenkins-Cucumber Framework-20"/>
+    <property name="JENKINS_SERVER_COOKIE" value="511db27942a6b0f2"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.version.date" value="2019-07-16"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="USERPROFILE" value="C:\Users\ravi.ahuja"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-12.0.2\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Users\ravi.ahuja\Maven/bin;C:\Program Files\Java\jdk-12.0.2/bin;C:\Program Files\Java\jdk-12.0.2/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Airtame;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Users\ravi.ahuja\Maven\bin;C:\Users\ravi.ahuja\Maven\bin;C:\Program Files\PuTTY\;C:\Users\ravi.ahuja\AppData\Local\Microsoft\WindowsApps;C:\Users\ravi.ahuja\AppData\Local\GitHubDesktop\bin;C:\Users\ravi.ahuja\AppData\Local\Programs\Git\cmd;."/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="APPDATA" value="C:\Users\ravi.ahuja\AppData\Roaming"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="C:\Users\ravi.ahuja\Maven"/>
+    <property name="java.class.path" value="C:\Users\ravi.ahuja\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.13.jar;C:\Users\ravi.ahuja\Maven\boot\plexus-classworlds-2.6.0.jar;C:\Users\ravi.ahuja\Maven/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\ravi.ahuja\Maven C:\Users\ravi.ahuja\.jenkins\war\WEB-INF\lib\remoting-4.3.jar C:\Users\ravi.ahuja\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Users\ravi.ahuja\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 55938"/>
+    <property name="Path" value="C:\Program Files\Java\jdk-12.0.2/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Airtame;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Users\ravi.ahuja\Maven\bin;C:\Users\ravi.ahuja\Maven\bin;C:\Program Files\PuTTY\;C:\Users\ravi.ahuja\AppData\Local\Microsoft\WindowsApps;C:\Users\ravi.ahuja\AppData\Local\GitHubDesktop\bin;C:\Users\ravi.ahuja\AppData\Local\Programs\Git\cmd"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="x86"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PATH+JDK" value="C:\Program Files\Java\jdk-12.0.2/bin"/>
+    <property name="SESSIONNAME" value="Console"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 142 Stepping 10, GenuineIntel"/>
+    <property name="java.vm.specification.version" value="12"/>
+    <property name="M2_HOME" value="C:\Users\ravi.ahuja\Maven"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="java.io.tmpdir" value="C:\Users\RAVI~1.AHU\AppData\Local\Temp\"/>
+    <property name="HUDSON_HOME" value="C:\Users\ravi.ahuja\.jenkins"/>
+    <property name="PATH+MAVEN" value="C:\Users\ravi.ahuja\Maven/bin"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/Cucumber%20Framework/20/"/>
+    <property name="SystemRoot" value="C:\windows"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="user.dir" value="C:\Users\ravi.ahuja\IdeaProjects\MavenBionicRegTest"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/Cucumber%20Framework/"/>
+    <property name="LOGONSERVER" value="\\MIC-UKDC-DC1V"/>
+    <property name="USERDOMAIN" value="MIC-DOMAIN"/>
+    <property name="MAVEN_HOME" value="C:\Users\ravi.ahuja\Maven"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="20"/>
+    <property name="PROCESSOR_REVISION" value="8e0a"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="windir" value="C:\windows"/>
+    <property name="=C:" value="C:\Jenkins"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="maven3.interceptor" value="C:\Users\ravi.ahuja\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar"/>
+    <property name="WORKSPACE_TMP" value="C:\Users\ravi.ahuja\.jenkins\workspace\Cucumber Framework@tmp"/>
+    <property name="WORKSPACE" value="C:\Users\ravi.ahuja\.jenkins\workspace\Cucumber Framework"/>
+    <property name="maven3.interceptor.common" value="C:\Users\ravi.ahuja\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar"/>
+    <property name="PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\windows\system32\WindowsPowerShell\v1.0\Modules"/>
+    <property name="java.specification.version" value="12"/>
+    <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
+  </properties>
+  <testcase name="Web form and lead creation" classname="Verify bionic site is live" time="21.529"/>
+  <testcase name="Verify current page for electric" classname="Verify UKP site scenarios" time="12.517">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;useGas-option-No&quot;}&#10;  (Session info: chrome=83.0.4103.116)&#10;  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;MIC-LAP225&apos;, ip: &apos;10.16.21.43&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.69 (3c16f8a135abc..., userDataDir: C:\Users\RAVI~1.AHU\AppData...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:56634}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 83.0.4103.116, webStorageEnabled: true}&#10;Session ID: fc7b5a25f4c222dd01d59b05c5ab320d&#10;*** Element info: {Using=id, value=useGas-option-No}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"id","selector":"useGas-option-No"}
+  (Session info: chrome=83.0.4103.116)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MIC-LAP225', ip: '10.16.21.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.69 (3c16f8a135abc..., userDataDir: C:\Users\RAVI~1.AHU\AppData...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:56634}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 83.0.4103.116, webStorageEnabled: true}
+Session ID: fc7b5a25f4c222dd01d59b05c5ab320d
+*** Element info: {Using=id, value=useGas-option-No}
+</error>
+    <system-out><![CDATA[
+Feature: Verify UKP site scenarios
+  As a user
+  I navigate to UKP QA site
+  So that regression test pass successfully
+
+  @UKP-TST1
+  Scenario Outline: Verify current page for electric &amp#27;[90m# src/test/resources/UKP.feature:7&amp#27;[0m
+    &amp#27;[36mGiven I navigate to UKP landing page with "<url>"&amp#27;[0m
+    &amp#27;[36mWhen I enter postcode "<postcode>"&amp#27;[0m
+    &amp#27;[36mAnd I click Compare now button&amp#27;[0m
+    &amp#27;[36mAnd I select Do you use gas option "<DoyouUseGasOption>"&amp#27;[0m
+    &amp#27;[36mAnd I select Economy seven option "<E7Option>"&amp#27;[0m
+    &amp#27;[36mAnd I select Energy Usage Option "<energy-usage-option>"&amp#27;[0m
+    &amp#27;[36mAnd I select size of property "<property-size>"&amp#27;[0m
+    &amp#27;[36mAnd I click See Result button&amp#27;[0m
+    &amp#27;[36mThen I close the ukp browser&amp#27;[0m
+
+    Examples: 
+
+  @UKP-TST1
+  Scenario Outline: Verify current page for electric                      &amp#27;[90m# src/test/resources/UKP.feature:19&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI navigate to UKP landing page with "&amp#27;[0m&amp#27;[32m&amp#27;[1mhttps://qa.ukpower.co.uk/&amp#27;[0m&amp#27;[32m"&amp#27;[0m &amp#27;[90m# ukpStepDefs.i_navigate_to_UKP_landing_page_with(String)&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI enter postcode "&amp#27;[0m&amp#27;[32m&amp#27;[1mha85hf&amp#27;[0m&amp#27;[32m"&amp#27;[0m                                        &amp#27;[90m# ukpStepDefs.i_enter_postcode(String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click Compare now button&amp#27;[0m                                        &amp#27;[90m# ukpStepDefs.i_click_Compare_now_button()&amp#27;[0m
+    &amp#27;[31mAnd &amp#27;[0m&amp#27;[31mI select Do you use gas option "&amp#27;[0m&amp#27;[31m&amp#27;[1mNo&amp#27;[0m&amp#27;[31m"&amp#27;[0m                               &amp#27;[90m# ukpStepDefs.i_select_Do_you_use_gas_option(String)&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"useGas-option-No"}
+  (Session info: chrome=83.0.4103.116)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MIC-LAP225', ip: '10.16.21.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.69 (3c16f8a135abc..., userDataDir: C:\Users\RAVI~1.AHU\AppData...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:56634}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 83.0.4103.116, webStorageEnabled: true}
+Session ID: fc7b5a25f4c222dd01d59b05c5ab320d
+*** Element info: {Using=id, value=useGas-option-No}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at UKPowerPages.ukpCurrentPlanPage.doYouUseGas(ukpCurrentPlanPage.java:18)
+	at bionicTestPrototype.ukpStepDefs.i_select_Do_you_use_gas_option(ukpStepDefs.java:36)
+	at ?.I select Do you use gas option "No"(src/test/resources/UKP.feature:11)
+&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI select Economy seven option "&amp#27;[0m&amp#27;[36m&amp#27;[1mNo&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                &amp#27;[90m# ukpStepDefs.i_select_Economy_seven_option(String)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI select Energy Usage Option "&amp#27;[0m&amp#27;[36m&amp#27;[1mNo&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                 &amp#27;[90m# ukpStepDefs.i_select_Energy_Usage_Option(String)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI select size of property "&amp#27;[0m&amp#27;[36m&amp#27;[1m1Bedroom&amp#27;[0m&amp#27;[36m"&amp#27;[0m                              &amp#27;[90m# ukpStepDefs.i_select_size_of_property(String)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI click See Result button&amp#27;[0m                                         &amp#27;[90m# ukpStepDefs.i_click_See_Result_button()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI close the ukp browser&amp#27;[0m                                          &amp#27;[90m# ukpStepDefs.i_close_the_ukp_browser()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38) on port 26044
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Jul 10, 2020 2:20:48 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="Verify current page for electric" classname="Verify UKP site scenarios" time="34.137"/>
+</testsuite>
