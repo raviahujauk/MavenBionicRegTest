@@ -2,6 +2,8 @@ package BionicPages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 
 public class bionicWebForm extends webDriver {
     public bionicWebForm(WebDriver driver) {
@@ -35,7 +37,9 @@ public class bionicWebForm extends webDriver {
     }
 
     public bionicWebForm clickGetAQuote() {
-        driver.findElement(By.xpath("//button[@type='submit' and contains(text(),'Get a quote')]")).click();
+        WebElement element = driver.findElement(By.xpath("//button[@type='submit' and contains(text(),'Get a quote')]"));
+        Actions actions = new Actions(driver);
+        actions.moveToElement(element).click().build().perform();
         return new bionicWebForm(driver);
     }
 }

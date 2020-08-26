@@ -11,7 +11,7 @@ Feature: Verify bionic site is live
     Examples:
     | url                               |
     | https://bionic.co.uk/             |
-    | https://bionic-qa.makeiteasy.com/ |
+#    | https://bionic-qa.makeiteasy.com/ |
 
   @RegTest @DIG-8
   Scenario Outline: Web form and lead creation
@@ -26,3 +26,4 @@ Feature: Verify bionic site is live
       Examples:
       | url                                                           | full-name   | email                   | company-name | phone        |
       | https://bionic-qa.makeiteasy.com/business-energy/web-form/    | Ravi Ahuja  | ravi.ahuja@bionic.co.uk | Jeevat LTD   | 07504555555  |
+#      | https://bionic-qa.makeiteasy.com/business-energy/web-form/    | Ravi Ahuja  | ravi.ahuja@bionic.co.uk | Jeevat LTD   | 07504555555  |

@@ -7,9 +7,9 @@ import io.restassured.response.Response;
 
     public String generateToken() {
 
-        String clintID = "3MVG90J3nJBMnqrRSYPfXX.ReRnyTWel_ga_1rXc8O3GBn_X4pCqEpsIWsoefUAmxMSWB5TomLBceWteQ2qDf";
-        String clintSecret = "9172BA5F717A956DD1E0D4AEECAFF9AC31AE41CBF7640118E931451939693C82";
-        String password = "Calmearth63tXAZB4FHXrdmAvE5bicCviSc";
+        String clintID = "3MVG9KlmwBKoC7U0uYeOpPsIjkPi15xXItYtaDKhz2KzW0VDZxOSi_ypNVeDAZilzmo5LOieFQT2makm3t2Q5";
+        String clintSecret = "ECA50EEE05D7AB1602F71EBE39D8C33F986E04E9EAE433707CEBFADCC342B3D4";
+        String password = "Calmearth63jZvmT6EqQvFeq7eOJoN6pxaL";
         Response response = RestAssured.
                 given()
                 .formParam("grant_type","password")

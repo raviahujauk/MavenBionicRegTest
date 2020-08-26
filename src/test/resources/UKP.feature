@@ -18,4 +18,5 @@ Feature: Verify UKP site scenarios
       | url                          | postcode | DoyouUseGasOption | E7Option | energy-usage-option | property-size |
       | https://qa.ukpower.co.uk/    | ha85hf   | No                | No       |  No                 | 1Bedroom      |
       | https://qa.ukpower.co.uk/    | ha85bd   | No                | No       |  No                 | 2to3Bedroom   |
-      | https://ukpower.co.uk/       | ha85bd   | No                | No       |  No                 | 4+Bedroom     |
+#      | https://ukpower.co.uk/       | ha85bd   | No                | No       |  No                 | 4+Bedroom     |
+#      | https://ukpower.co.uk/       | ha85gh   | No                | No       |  No                 | 4+Bedroom     |
