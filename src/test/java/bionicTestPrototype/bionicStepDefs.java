@@ -19,19 +19,15 @@ public class bionicStepDefs {
     static { System.setProperty("webdriver.chrome.driver" , "src/main/resources/driver/chromedriver.exe"); }
     private WebDriver driver = new ChromeDriver();
 
-<<<<<<< HEAD
 
     //For Linux + Headless browser
     /*
-=======
-    //For Linux + Headless browser
-//    /*
->>>>>>> master
+
     static{
         System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
     }
     private ChromeOptions options = new ChromeOptions();
-<<<<<<< HEAD
+
     private WebDriver driver = new ChromeDriver(options.addArguments(
             "--headless",
             "window-size=1280x800",
@@ -49,11 +45,11 @@ public class bionicStepDefs {
     private GETRequest getRequest = new GETRequest();
     private GenerateRandomString grs = new GenerateRandomString();
     private String companyName;
-=======
-    private WebDriver driver = new ChromeDriver(options.addArguments("--headless", "--disable-gpu", "--window-size=1920,1200","--ignore-certificate-errors"));
-    private bionicLandingPage blp =new bionicLandingPage(driver);
+
+//    private WebDriver driver = new ChromeDriver(options.addArguments("--headless", "--disable-gpu", "--window-size=1920,1200","--ignore-certificate-errors"));
+//    private bionicLandingPage blp =new bionicLandingPage(driver);
 //    */
->>>>>>> master
+
 
     @Given("^I navigate to bionic landing page with \"([^\"]*)\"$")
     public void i_navigate_to_bionic_landing_page_with(String url) throws Throwable {
